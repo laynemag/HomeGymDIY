@@ -25,3 +25,29 @@ Custom mounting solutions for Voltra cable attachments.
 
 ### 📝 Credits
 Design by Tranman
+
+---
+
+## wamoore911 Belt Squat Stand Mount
+
+![Belt Squat Stand](wamoore911/squat-stand-wamoore911.jpg)
+
+### 📁 Files
+- [Squat Stand DXF file](wamoore911/SQUATSTAND3.dxf)
+- [Reddit Discussion & Build Guide](https://old.reddit.com/r/BeyondPower/comments/1nmpn8i/easy_diy_belt_squat_base/)
+
+### 🔧 Specifications
+- **Base Material:** 2x6 and 4x4 lumber
+- **Mounting Plate:** SendCutSend steel plate
+- **Finish:** Powder coat recommended (clear coat over polished steel rusts easily)
+
+### 💡 Build Notes
+> Created with a simple SendCutSend plate, 2x6, and 4x4s. The mount is rotated slightly so the pulley comes out more centered on the platform.
+
+### 💭 Lessons Learned
+- Add clearance on the floor side for VOLTRA screws
+- Use powder coating instead of polished steel with clear coat (polishing is difficult and rust develops despite clear coat)
+- No damage to floor mats reported
+
+### 📝 Credits
+Design by wamoore911
