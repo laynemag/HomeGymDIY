@@ -51,3 +51,19 @@ Design by Tranman
 
 ### 📝 Credits
 Design by wamoore911
+
+---
+
+## Dr Tatty Waffles Triple Voltra Bracket
+
+![Triple Mount](DrTattyWaffles/triple-mount.png)
+![Mounted Triple Mount](DrTattyWaffles/mounted-triple-mount.png) Courstey of RSmiley111
+
+### 📁 Files
+- [Triple Mount DXF file](DrTattyWaffles/triple-mount.dxf)
+
+### 📝 Notes
+Allows mounting three Voltra units simultaneously for expanded cable exercise options
+
+### 📝 Credits
+Design by Dr Tatty Waffles
