@@ -44,7 +44,7 @@ function layout(title, navHtml, contentHtml) {
   <title>${title}</title>
   <style>
     body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;margin:0;padding:0;color:#111}
-    header{background:#0f172a;color:#fff;padding:16px 20px}
+    header{background:#0f172a;color:#fff;padding:16px 20px;position:sticky;top:0;z-index:100}
     a.logo{color:#fff;text-decoration:none;font-weight:700}
   .wrap{display:flex;gap:20px}
   /* make the sidebar wider and sticky so navigation is prominent */
