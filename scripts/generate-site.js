@@ -49,7 +49,7 @@ function layout(title, navHtml, contentHtml) {
     body.dark-mode header{background:#000}
     a.logo{color:#fff;text-decoration:none;font-weight:700;font-size:24px;letter-spacing:-0.5px;background:linear-gradient(135deg,#4f9eff 0%,#2196F3 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-shadow:none;display:inline-block;padding:2px 8px;border-radius:4px;transition:transform 0.2s}
     a.logo:hover{transform:scale(1.05)}
-    body.dark-mode a.logo{background:linear-gradient(135deg,#66b3ff 0%,#4fa3ff 100%)}
+    body.dark-mode a.logo{background:linear-gradient(135deg,#66b3ff 0%,#4fa3ff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
     .theme-toggle{background:none;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:8px 12px;border-radius:4px;cursor:pointer;font-size:14px;transition:all 0.2s}
     .theme-toggle:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.6)}
   .wrap{display:flex;gap:20px}
