@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_title: Home
+nav_order: 0
 ---
 
 ## Welcome to HomeGymDIY
@@ -13,10 +14,10 @@ A community-driven collection of open-source DIY home gym projects, designs, and
 
 Browse our curated collection of DIY home gym designs organized by category:
 
-- **[Handles](handles/)** — Custom barbell handles and attachments
-- **[Voltra Mounts](voltra_mounts/)** — Mounting solutions and brackets
-- **[Rack Attachments](rack_attachments/)** — Safety systems and accessory mounts
-- **[Miscellaneous](misc/)** — Hooks, storage, and other gym accessories
+- **[Handles](../handles/)** — Custom barbell handles and attachments
+- **[Voltra Mounts](../voltra_mounts/)** — Mounting solutions and brackets
+- **[Rack Attachments](../rack_attachments/)** — Safety systems and accessory mounts
+- **[Miscellaneous](../misc/)** — Hooks, storage, and other gym accessories
 
 Each project includes design files (.STEP, .DXF, .STL), cost breakdowns, difficulty ratings, and creator details.
 
@@ -24,15 +25,15 @@ Each project includes design files (.STEP, .DXF, .STL), cost breakdowns, difficu
 
 ## 💰 Tools & Features
 
-### [Cost Comparison](cost-comparison/)
+### [Cost Comparison](../cost-comparison/)
 
 See all projects at a glance with detailed pricing, materials, and difficulty levels. Sort by cost, category, or difficulty to find the perfect project for your build.
 
-### [BOM Builder](bom/)
+### [BOM Builder](../bom/)
 
 Plan your custom build! Select which projects you want to combine and generate a shopping list with all parts organized by supplier. Export directly to your clipboard for easy ordering.
 
-### [Part Requests](requests/)
+### [Part Requests](../requests/)
 
 Need a custom bracket, 3D printed accessory, or fabricated part? Submit requests directly through GitHub—no complex forms required. Browse open requests and see what the community is working on.
 

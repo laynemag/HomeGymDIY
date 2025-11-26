@@ -300,8 +300,8 @@ function main() {
   const navItems2 = [`<li><a href="${BASE_URL}cost-comparison/">Costs</a></li>`, `<li><a href="${BASE_URL}bom/">BOM Builder</a></li>`, `<li><a href="${BASE_URL}requests/">Requests</a></li>`].join('\n');
   const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul><div class="nav-folder-heading">Tools</div><ul class="nav-list">${navItems2}</ul>`;
 
-  // create root index page (show repo README if present)
-  const rootPage = pages.find(p => p.rel === '.' || p.rel === '');
+  // create root index page (show Home folder README if present)
+  const rootPage = pages.find(p => p.rel === 'Home');
   const copied = new Set();
   const missing = [];
 
@@ -342,7 +342,11 @@ function main() {
 
   // write individual README pages for nested projects (skip top-level folder README which is represented by folder index)
   for (const p of pages) {
-    // skip root README (already used for index) and top-level folder READMEs (we created folder index pages)
+    // skip Home README (already used for index) and top-level folder READMEs (we created folder index pages)
+    if (p.rel === 'Home') {
+      // Home already handled as root index
+      continue;
+    }
     if (!p.rel || p.rel === '.') {
       // root already handled
       continue;
