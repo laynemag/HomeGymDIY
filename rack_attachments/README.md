@@ -1,3 +1,9 @@
+---
+title: Rack Attachments
+nav_title: Rack Attachments
+nav_order: 3
+---
+
 # Chaisewhiz's MagStrap Quick Adjust Strap Safety System
 
 This build provides a quick adjust strap safety system using mag pins to mount to your rack upright.

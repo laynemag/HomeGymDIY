@@ -1,3 +1,9 @@
+---
+title: Misc
+nav_title: Miscellaneous
+nav_order: 4
+---
+
 # Miscellaneous Utilities
 
 Custom utility accessories for home gym power racks.
@@ -9,13 +15,16 @@ Custom utility accessories for home gym power racks.
 ![Utility Hook](markofzen/utility-hook.png)
 
 ### 📁 Files
+
 - [Utility Hook DXF file](markofzen/hook-4-mm-thick.dxf) (4mm thick)
 
 ### 🔧 Specifications
+
 - **Material:** Stainless Steel
 - **Thickness:** 4mm
 
 ### 💰 Cost Reference
+
 - **SCS Manufacturing:** ~$30 + shipping for 12 hooks in stainless steel
 
 ---
@@ -25,9 +34,11 @@ Custom utility accessories for home gym power racks.
 ![Iron Master Stand](markofzen/ironmaster-stand.jpg)
 
 ### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/919545-iron-master-super-bench-pro-v2-kickstand) from Makerworld
 
 ### 📝 Notes
+
 Custom kickstand for the Iron Master Super Bench Pro v2
 
 ---
@@ -37,9 +48,11 @@ Custom kickstand for the Iron Master Super Bench Pro v2
 ![Darko Anchor Liner](markofzen/darko-anchor-liner.png)
 
 ### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/1290776-replacement-pads-for-darko-barbell-anchor) from Makerworld
 
 ### 📝 Notes
+
 Replacement protective pads for the Darko Barbell Anchor
 
 ---
@@ -49,9 +62,11 @@ Replacement protective pads for the Darko Barbell Anchor
 ![Darko Thresher Pad](markofzen/darko-threasher-pads.png)
 
 ### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/1921564-replacement-pads-for-darko-thresher-pad) from Makerworld
 
 ### 📝 Notes
+
 Replacement protective pads for the Darko Thresher
 
 ---
@@ -63,6 +78,7 @@ Replacement protective pads for the Darko Thresher
 ![Titan Twist Lock Front Lip](markofzen/titan-roller-twist-lock-front-lip.jpg)
 
 #### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-697722) from Makerworld
 
 ### New Pop Pin Lock J-Cups - Front Lip Protector
@@ -70,6 +86,7 @@ Replacement protective pads for the Darko Thresher
 ![Titan Pop Pin Front Lip](markofzen/titan-roller-pop-pin-front-lip.jpg)
 
 #### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-1661999) from Makerworld
 
 ### Ryan's J-Cup Back Protector
@@ -77,9 +94,11 @@ Replacement protective pads for the Darko Thresher
 ![Titan J-Cup Back Protection](markofzen/titan-roller-jcup-back-protection.jpg)
 
 #### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/860577-titan-roller-j-cup-back-protector#profileId-1661765) from Makerworld
 
 ### 📝 Notes
+
 Protective inserts for Titan Roller J-Cups to prevent damage to bars and the J-cup surfaces
 
 ---
@@ -89,7 +108,9 @@ Protective inserts for Titan Roller J-Cups to prevent damage to bars and the J-c
 ![Rogue Monster 2.0 Lip Protector](markofzen/rogue-monster-2.0-lip-protector.png)
 
 ### 📁 Files
+
 - [3D Print Model](https://makerworld.com/en/models/780544-rogue-monster-safety-spotter-arm-20-lip-protector#profileId-724695) from Makerworld
 
 ### 📝 Notes
+
 Protective insert for Rogue Monster Safety Spotter Arms 2.0 to prevent damage to bars and spotter arm surfaces
