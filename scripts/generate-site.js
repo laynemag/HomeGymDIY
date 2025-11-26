@@ -3,6 +3,12 @@ const path = require('path');
 const { marked } = require('marked');
 const yaml = require('js-yaml');
 
+// Configure marked to disable deprecated features
+marked.setOptions({
+  mangle: false,
+  headerIds: false
+});
+
 // Config
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'docs');
