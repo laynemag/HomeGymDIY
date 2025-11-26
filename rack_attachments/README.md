@@ -8,8 +8,6 @@ This build provides a quick adjust strap safety system using mag pins to mount t
 
 ## Parts List
 
-W
-
 - **MagStrap Brackets**: Order 4 from [sendcutsend.com](https://sendcutsend.com). Use ¼" A36 HRPO steel. For stainless, adjust the bend radius in Fusion to avoid alerts. You can have SendCutSend tap the ¼-20 holes or do it yourself.
 - **MagStrap Center Protectors**: 3D print 4.
 - **MagStrap Side Protectors**: 3D print 8.
