@@ -25,12 +25,15 @@ Each project includes design files (.STEP, .DXF, .STL), cost breakdowns, difficu
 ## 💰 Tools & Features
 
 ### [Cost Comparison](cost-comparison/)
+
 See all projects at a glance with detailed pricing, materials, and difficulty levels. Sort by cost, category, or difficulty to find the perfect project for your build.
 
 ### [BOM Builder](bom/)
+
 Plan your custom build! Select which projects you want to combine and generate a shopping list with all parts organized by supplier. Export directly to your clipboard for easy ordering.
 
 ### [Part Requests](requests/)
+
 Need a custom bracket, 3D printed accessory, or fabricated part? Submit requests directly through GitHub—no complex forms required. Browse open requests and see what the community is working on.
 
 ---
@@ -60,14 +63,6 @@ We welcome contributions! Here's how to add your projects:
 3. **Upload design files** (.STEP, .DXF, .STL, etc.) so others can use your design
 4. **Include fabrication notes** — material thickness, SCS specifications, mounting hardware, etc.
 5. **Give credit** to original creators
-
----
-
-## 🎓 Difficulty Ratings
-
-- **Easy** — Basic tools, straightforward assembly
-- **Medium** — Some fabrication skills needed, standard tools
-- **Hard** — Advanced fabrication, specialized equipment or services required
 
 ---
 
