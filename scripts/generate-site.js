@@ -8,6 +8,9 @@ const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const IGNORED_DIRS = ['.git', 'node_modules', 'docs'];
 
+// Determine base URL: use /HomeGymDIY/ for GitHub Pages (production), or / for local dev
+const BASE_URL = process.env.GITHUB_ACTIONS ? '/HomeGymDIY/' : '/';
+
 function findReadmes(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   let results = [];
@@ -195,7 +198,6 @@ function main() {
   });
 
   const topList = Array.from(topFolders).sort();
-  const BASE_URL = '/HomeGymDIY/';
   const navItems = [`<li><a href="${BASE_URL}">Home</a></li>`].concat(topList.map(f => {
     // look for a folder README meta to provide a nicer label
     const folderPage = pages.find(p => p.rel === f);
