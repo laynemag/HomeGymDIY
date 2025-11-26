@@ -197,7 +197,15 @@ function main() {
     topFolders.add(top);
   });
 
-  const topList = Array.from(topFolders).sort();
+  const topList = Array.from(topFolders).sort((a, b) => {
+    // sort by nav_order if defined, otherwise alphabetically
+    const pageA = pages.find(p => p.rel === a);
+    const pageB = pages.find(p => p.rel === b);
+    const orderA = (pageA && pageA.meta && pageA.meta.nav_order) !== undefined ? pageA.meta.nav_order : Infinity;
+    const orderB = (pageB && pageB.meta && pageB.meta.nav_order) !== undefined ? pageB.meta.nav_order : Infinity;
+    if (orderA !== orderB) return orderA - orderB;
+    return a.localeCompare(b);
+  });
   const navItems = [`<li><a href="${BASE_URL}">Home</a></li>`].concat(topList.map(f => {
     // look for a folder README meta to provide a nicer label
     const folderPage = pages.find(p => p.rel === f);
