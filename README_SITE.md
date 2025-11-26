@@ -56,6 +56,7 @@ Loaded 6 projects from projects.json
 ```
 
 **See `PROJECTS_README.md` for complete documentation on:**
+
 - Full JSON schema and required fields
 - How to add new projects
 - Best practices for part names and costs
@@ -108,11 +109,11 @@ nav_order: 1
 
 ### Metadata Fields
 
-| Field        | Purpose                                                                |
-| ------------ | ---------------------------------------------------------------------- |
-| `title`      | Page title (used in browser tab and as main heading)                   |
-| `nav_title`  | Sidebar navigation label (if different from title)                     |
-| `nav_order`  | Sort order in sidebar (numeric; lower numbers appear first)            |
+| Field       | Purpose                                                     |
+| ----------- | ----------------------------------------------------------- |
+| `title`     | Page title (used in browser tab and as main heading)        |
+| `nav_title` | Sidebar navigation label (if different from title)          |
+| `nav_order` | Sort order in sidebar (numeric; lower numbers appear first) |
 
 ### Best Practices
 
@@ -161,14 +162,14 @@ Make sure linked files exist in the source tree or you'll see warnings in the bu
 
 ## Troubleshooting
 
-| Issue                           | Solution                                                          |
-| ------------------------------- | ----------------------------------------------------------------- |
-| Build fails with JSON error     | Check `projects.json` for trailing commas or mismatched quotes    |
-| Pages not showing on site       | Verify README.md exists and is spelled correctly (case-sensitive) |
-| Assets showing 404 errors       | Check that linked files exist; rebuild and check build output     |
-| Dark mode logo shows as box     | CSS clipping should work in modern browsers; try hard refresh     |
-| Projects not in cost table      | Ensure `category` in projects.json matches exactly (case-sensitive) |
-| BOM builder not working         | Clear browser cache; ensure projects.json is valid JSON           |
+| Issue                       | Solution                                                            |
+| --------------------------- | ------------------------------------------------------------------- |
+| Build fails with JSON error | Check `projects.json` for trailing commas or mismatched quotes      |
+| Pages not showing on site   | Verify README.md exists and is spelled correctly (case-sensitive)   |
+| Assets showing 404 errors   | Check that linked files exist; rebuild and check build output       |
+| Dark mode logo shows as box | CSS clipping should work in modern browsers; try hard refresh       |
+| Projects not in cost table  | Ensure `category` in projects.json matches exactly (case-sensitive) |
+| BOM builder not working     | Clear browser cache; ensure projects.json is valid JSON             |
 
 ## Contributing
 
