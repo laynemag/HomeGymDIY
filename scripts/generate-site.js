@@ -61,6 +61,23 @@ function layout(title, navHtml, contentHtml) {
     body.dark-mode a{color:#66b3ff}
     a:hover{color:#0052a3}
     body.dark-mode a:hover{color:#99ccff}
+    h1,h2,h3,h4,h5,h6{color:#0f172a}
+    body.dark-mode h1,body.dark-mode h2,body.dark-mode h3,body.dark-mode h4,body.dark-mode h5,body.dark-mode h6{color:#d0d0d0}
+    p,li,td,th{color:#111}
+    body.dark-mode p,body.dark-mode li,body.dark-mode td,body.dark-mode th{color:#d0d0d0}
+    table{border-collapse:collapse}
+    body.dark-mode table{border-color:#444}
+    th,td{border:1px solid #ddd;padding:12px;text-align:left}
+    body.dark-mode th,body.dark-mode td{border-color:#444;background:#2a2a2a}
+    body.dark-mode thead tr{background:#1f1f1f}
+    input,textarea,select{border:1px solid #cbd5e1;border-radius:4px;padding:8px;font-family:inherit;background:#fff;color:#111}
+    body.dark-mode input,body.dark-mode textarea,body.dark-mode select{background:#2a2a2a;color:#e0e0e0;border-color:#444}
+    button{border:1px solid #ccc;border-radius:4px;padding:10px 16px;cursor:pointer;background:#f5f5f5;color:#111}
+    body.dark-mode button{background:#333;color:#e0e0e0;border-color:#555}
+    body.dark-mode button:hover{background:#444}
+    div[style*="background:#f0f9ff"]{background:#f0f9ff!important}
+    body.dark-mode div[style*="background:#f0f9ff"]{background:#1f3a4a!important;border-color:#444!important}
+    body.dark-mode div[style*="background:#f8fafc"]{background:#222!important;border-color:#444!important}
     .readme-content img{max-width:100%;height:auto}
     .readme-figure{margin:20px 0;text-align:center;border:1px solid #e5e7eb;border-radius:6px;padding:12px;background:#fafafa;display:flex;flex-direction:column;align-items:center}
     body.dark-mode .readme-figure{border-color:#333;background:#2a2a2a}
