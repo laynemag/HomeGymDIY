@@ -2,11 +2,13 @@
 
 This build provides a quick adjust strap safety system using mag pins to mount to your rack upright.
 
-![Quick Adjust Strap Safeties](chaisewhiz\img_0198.webp)
+![Quick Adjust Strap Safeties](chaisewhiz/img_0198.webp)
 
 ![Close view](chaisewhiz/img_0196.png)
 
 ## Parts List
+
+W
 
 - **MagStrap Brackets**: Order 4 from [sendcutsend.com](https://sendcutsend.com). Use ¼" A36 HRPO steel. For stainless, adjust the bend radius in Fusion to avoid alerts. You can have SendCutSend tap the ¼-20 holes or do it yourself.
 - **MagStrap Center Protectors**: 3D print 4.
