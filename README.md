@@ -1,7 +1,7 @@
-# HomeGymHacks
 Repository for DIY home gym projects and information
 
 ## Requests
+
 Need a custom metal bracket, 3D printed accessory, or other part? You can submit a request even if you are brand new to GitHub:
 
 1. [Create a free GitHub account](https://github.com/signup) if you do not already have one.
@@ -12,18 +12,25 @@ Need a custom metal bracket, 3D printed accessory, or other part? You can submit
 Every request automatically gets a `request` label so we can track it. We will reply on the issue if we need clarification or to share progress.
 
 ## Project Organziation
+
 Folders will be organized into general more generalized parts, and will have their own README.md files with specific details.
 
 ## Getting Your Custom Stuff Made
+
 The most common service used has been Send Cut Send, however Oshcut and many others might be cheaper or offer more specialized services like bending close to holes, etc.
 
 # Repo Contents
+
 ### [Voltra Mounts](voltra_mounts/)
+
 ### [Handles](handles/)
+
 ### [Misc](misc/)
 
 # Contribution Guidelines
+
 Contributions are welcomed, but make sure to follow the contributing guidelines here:
+
 1. Give credit to the original creator
 2. Update or create a new folder, update folder README.md file with creator, pricing, and real world images with the creation in use.
    1. Add SCS details about tapping, material thickness, and relavent details to have the item made
