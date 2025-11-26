@@ -7,12 +7,117 @@
       "creator": "Tranman",
       "difficulty": "Medium",
       "material": "Stainless Steel 304",
-      "cost": 0,
-      "notes": "Requires M10 1.5 tap for swivel hook. Cost covers the raw stainless steel bracket from SCS.",
+      "cost": 41.58,
+      "notes": "SendCutSend quote: $41.58 per pair in 304 stainless. Requires M10 1.5 tap for swivel hook.",
       "parts": [
-        { "name": "M10 1.5 Hex Nut", "qty": 1, "source": "Amazon", "url": "https://www.amazon.com/s?k=M10+1.5+hex+nut", "estimatedCost": 5 },
-        { "name": "Rogue H5 Multi-Grip Handles (Aluminum)", "qty": 1, "source": "Rogue Fitness", "url": "https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles", "estimatedCost": 45 },
-        { "name": "Adjustable Dumbbell Swivel Eye Hooks", "qty": 1, "source": "Egg Weights", "url": "https://eggweights.com/products/adjustable-dumbbell-swivel-eye-hooks", "estimatedCost": 15 }
+        {
+          "name": "M10 1.5 Hex Nut",
+          "qty": 1,
+          "source": "Amazon",
+          "url": "https://www.amazon.com/s?k=M10+1.5+hex+nut",
+          "estimatedCost": 5
+        },
+        {
+          "name": "Rogue H5 Multi-Grip Handles (Aluminum)",
+          "qty": 1,
+          "source": "Rogue Fitness",
+          "url": "https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles",
+          "estimatedCost": 45
+        },
+        {
+          "name": "Adjustable Dumbbell Swivel Eye Hooks",
+          "qty": 1,
+          "source": "Egg Weights",
+          "url": "https://eggweights.com/products/adjustable-dumbbell-swivel-eye-hooks",
+          "estimatedCost": 15
+        }
+      ]
+    },
+    {
+      "id": "tranman-closed-d",
+      "name": "Tranman Closed D Handles",
+      "category": "Handles",
+      "creator": "Tranman",
+      "difficulty": "Medium",
+      "material": "304 Stainless Steel",
+      "cost": 59.74,
+      "notes": "SendCutSend quote: $59.74 per pair in 304 stainless with two 90° bends. Closed variant with optional swivel or static eye bolt hardware (requires M10 × 1.5 tapped holes).",
+      "parts": [
+        {
+          "name": "SendCutSend 1/4\" 304SS blank with two 90° bends",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 65
+        },
+        {
+          "name": "Adjustable Dumbbell Swivel Eye Hooks",
+          "qty": 1,
+          "source": "Egg Weights",
+          "url": "https://eggweights.com/products/adjustable-dumbbell-swivel-eye-hooks",
+          "estimatedCost": 15
+        },
+        {
+          "name": "M10 1.5 Eye Bolt + Shoulder Bolt",
+          "qty": 1,
+          "source": "Amazon",
+          "url": "https://www.amazon.com/dp/B0CP3SBC9Q",
+          "estimatedCost": 12
+        },
+        {
+          "name": "Rogue H5 Multi-Grip Handles",
+          "qty": 1,
+          "source": "Rogue Fitness",
+          "url": "https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles",
+          "estimatedCost": 45
+        }
+      ]
+    },
+    {
+      "id": "mech6-multigrip",
+      "name": "Forza Handles",
+      "category": "Handles",
+      "creator": "mech6",
+      "difficulty": "Hard",
+      "material": "0.187\" Steel Plate + 3D Prints",
+      "cost": 0,
+      "notes": "Pair of mirrored multi-grip handles sized for custom cable machines. Requires two STEP files, PETG printed spacers, and McMaster hardware.",
+      "parts": [
+        {
+          "name": "SendCutSend 3/16\" steel handle plates (pair)",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 120
+        },
+        {
+          "name": "McMaster 93441A441 button-head screws",
+          "qty": 8,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/93441A441",
+          "estimatedCost": 18
+        },
+        {
+          "name": "McMaster 98002A301 washers",
+          "qty": 8,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/98002A301",
+          "estimatedCost": 6
+        },
+        {
+          "name": "McMaster 3583T11 rubber grips",
+          "qty": 2,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/3583T11",
+          "estimatedCost": 24
+        },
+        {
+          "name": "PETG prints for handle spacers (4 pcs)",
+          "qty": 1,
+          "source": "Self-print",
+          "url": "https://makerworld.com",
+          "estimatedCost": 10
+        }
       ]
     },
     {
@@ -22,11 +127,23 @@
       "creator": "Tranman",
       "difficulty": "Medium",
       "material": "Stainless Steel 304",
-      "cost": 54.70,
+      "cost": 54.7,
       "notes": "Requires 3D printed shim. Voltra can only mount in one orientation. Cost is for SendCutSend manufacturing.",
       "parts": [
-        { "name": "M5 x 0.8 Countersunk Hex Bolts", "qty": 4, "source": "Hardware Store", "url": "", "estimatedCost": 8 },
-        { "name": "3D Printed Shim", "qty": 1, "source": "Makerworld (free model)", "url": "https://makerworld.com/en/models/2019445-low-profile-fixed-voltra-mount-shim", "estimatedCost": 5 }
+        {
+          "name": "M5 x 0.8 Countersunk Hex Bolts",
+          "qty": 4,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 8
+        },
+        {
+          "name": "3D Printed Shim",
+          "qty": 1,
+          "source": "Makerworld (free model)",
+          "url": "https://makerworld.com/en/models/2019445-low-profile-fixed-voltra-mount-shim",
+          "estimatedCost": 5
+        }
       ]
     },
     {
@@ -39,9 +156,27 @@
       "cost": 100,
       "notes": "SendCutSend plate recommended. Use powder coating, not clear coat.",
       "parts": [
-        { "name": "2x6 Lumber", "qty": 1, "source": "Home Depot", "url": "https://www.homedepot.com", "estimatedCost": 20 },
-        { "name": "4x4 Lumber", "qty": 1, "source": "Home Depot", "url": "https://www.homedepot.com", "estimatedCost": 15 },
-        { "name": "Steel Mounting Plate (from DXF)", "qty": 1, "source": "SendCutSend", "url": "https://www.sendcutsend.com", "estimatedCost": 65 }
+        {
+          "name": "2x6 Lumber",
+          "qty": 1,
+          "source": "Home Depot",
+          "url": "https://www.homedepot.com",
+          "estimatedCost": 20
+        },
+        {
+          "name": "4x4 Lumber",
+          "qty": 1,
+          "source": "Home Depot",
+          "url": "https://www.homedepot.com",
+          "estimatedCost": 15
+        },
+        {
+          "name": "Steel Mounting Plate (from DXF)",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 65
+        }
       ]
     },
     {
@@ -54,8 +189,20 @@
       "cost": 80,
       "notes": "Allows mounting three Voltra units simultaneously.",
       "parts": [
-        { "name": "Steel Brackets (from DXF)", "qty": 1, "source": "SendCutSend", "url": "https://www.sendcutsend.com", "estimatedCost": 65 },
-        { "name": "Mounting Hardware", "qty": 12, "source": "Hardware Store", "url": "", "estimatedCost": 15 }
+        {
+          "name": "Steel Brackets (from DXF)",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 65
+        },
+        {
+          "name": "Mounting Hardware",
+          "qty": 12,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 15
+        }
       ]
     },
     {
@@ -68,9 +215,27 @@
       "cost": 150,
       "notes": "Includes custom straps and 3D printed protectors.",
       "parts": [
-        { "name": "MagStrap Brackets (¼\" A36 HRPO steel from SendCutSend)", "qty": 4, "source": "SendCutSend", "url": "https://www.sendcutsend.com", "estimatedCost": 75 },
-        { "name": "¼-20 x 5/8\" Flat Head Socket Cap Screws", "qty": 24, "source": "Amazon", "url": "https://www.amazon.com/s?k=socket+cap+screws", "estimatedCost": 12 },
-        { "name": "Custom Straps 42\" with covers", "qty": 1, "source": "CustomTieDowns", "url": "https://customtiedowns.com", "estimatedCost": 63 }
+        {
+          "name": "MagStrap Brackets (¼\" A36 HRPO steel from SendCutSend)",
+          "qty": 4,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 75
+        },
+        {
+          "name": "¼-20 x 5/8\" Flat Head Socket Cap Screws",
+          "qty": 24,
+          "source": "Amazon",
+          "url": "https://www.amazon.com/s?k=socket+cap+screws",
+          "estimatedCost": 12
+        },
+        {
+          "name": "Custom Straps 42\" with covers",
+          "qty": 1,
+          "source": "CustomTieDowns",
+          "url": "https://customtiedowns.com",
+          "estimatedCost": 63
+        }
       ]
     },
     {
@@ -81,8 +246,170 @@
       "difficulty": "Easy",
       "material": "Stainless Steel",
       "cost": 30,
-      "notes": "4mm thick. Cost estimate for 12 hooks via SCS Manufacturing.",
       "parts": []
+    },
+    {
+      "id": "mech6-prime-sundial",
+      "name": "Mech6 Prime Stability Arm Sundial",
+      "category": "Miscellaneous",
+      "creator": "mech6",
+      "difficulty": "Medium",
+      "material": "0.187\" Stainless Steel",
+      "cost": 0,
+      "notes": "Larger sundial plate for Prime stability arm that locks the pad upright. Uses stock Prime hardware.",
+      "parts": [
+        {
+          "name": "SendCutSend 3/16\" stainless sundial plate",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 40
+        }
+      ]
+    },
+    {
+      "id": "markofzen-ironmaster-stand",
+      "name": "Ryan's Iron Master Super Bench Pro v2 Stand",
+      "category": "Miscellaneous",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Easy",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Kickstand keeps the Super Bench upright during pad swaps. Print with high infill PETG or PLA (ABS optional).",
+      "parts": [
+        {
+          "name": "Makerworld kickstand model",
+          "qty": 1,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/919545-iron-master-super-bench-pro-v2-kickstand",
+          "estimatedCost": 0
+        },
+        {
+          "name": "PETG or PLA filament",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 10
+        }
+      ]
+    },
+    {
+      "id": "markofzen-darko-anchor-pads",
+      "name": "Ryan's Darko Barbell Anchor Pads",
+      "category": "Miscellaneous",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Easy",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Drop-in pads to prevent metal-on-metal contact inside the Darko barbell anchor. Print in PETG or PLA (use TPU only if you want a softer grip).",
+      "parts": [
+        {
+          "name": "Makerworld pad model",
+          "qty": 1,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/1290776-replacement-pads-for-darko-barbell-anchor",
+          "estimatedCost": 0
+        },
+        {
+          "name": "PETG or PLA filament",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 12
+        }
+      ]
+    },
+    {
+      "id": "markofzen-darko-thresher-pads",
+      "name": "Ryan's Darko Thresher Pad Inserts",
+      "category": "Miscellaneous",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Easy",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Replacement pads for the Darko Thresher pad shell to improve grip and protection. PETG or PLA prints work best; switch to TPU only if you want maximum softness.",
+      "parts": [
+        {
+          "name": "Makerworld thresher pad model",
+          "qty": 1,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/1921564-replacement-pads-for-darko-thresher-pad",
+          "estimatedCost": 0
+        },
+        {
+          "name": "PETG or PLA filament",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 12
+        }
+      ]
+    },
+    {
+      "id": "markofzen-titan-roller-protectors",
+      "name": "Ryan's Titan Roller J-Cup Protectors",
+      "category": "Miscellaneous",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Medium",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Front lip and back protectors for both twist-lock and pop-pin Titan roller J-cups. Print shells in PETG or PLA; add TPU inserts only where extra grip is needed.",
+      "parts": [
+        {
+          "name": "Front lip (twist-lock) print",
+          "qty": 2,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-697722",
+          "estimatedCost": 0
+        },
+        {
+          "name": "Front lip (pop-pin) print",
+          "qty": 2,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-1661999",
+          "estimatedCost": 0
+        },
+        {
+          "name": "Back protector print",
+          "qty": 2,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/860577-titan-roller-j-cup-back-protector#profileId-1661765",
+          "estimatedCost": 0
+        },
+        {
+          "name": "PETG or PLA filament (optional TPU for grip)",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 15
+        }
+      ]
+    },
+    {
+      "id": "markofzen-rogue-lip-protector",
+      "name": "Ryan's Rogue Monster Spotter Lip Protector",
+      "category": "Miscellaneous",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Easy",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Slide-on protector to save bar knurling on Rogue Monster 2.0 safety spotter arms. PETG or PLA with higher infill holds up best.",
+      "parts": [
+        {
+          "name": "Makerworld lip protector model",
+          "qty": 1,
+          "source": "Makerworld",
+          "url": "https://makerworld.com/en/models/780544-rogue-monster-safety-spotter-arm-20-lip-protector#profileId-724695",
+          "estimatedCost": 0
+        },
+        {
+          "name": "PETG or PLA filament",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 10
+        }
+      ]
     }
   ]
 }

@@ -4,46 +4,51 @@ nav_title: Rack Attachments
 nav_order: 3
 ---
 
-Projects that are primarily designed to attach to your rack
+Custom attachments and accessories for power racks.
+
+## Table of Contents
+
+- [Chaisewhiz – MagStrap Quick-Adjust Strap Safety System](#chaisewhiz--magstrap-quick-adjust-strap-safety-system)
 
 ---
 
-# Chaisewhiz's MagStrap Quick Adjust Strap Safety System
+## Chaisewhiz – MagStrap Quick-Adjust Strap Safety System
 
-This build provides a quick adjust strap safety system using mag pins to mount to your rack upright.
+Quick-adjust strap safeties that use mag pins to attach to your rack uprights.
 
 ![Quick Adjust Strap Safeties](chaisewhiz/img_0198.webp)
 
 ![Close view](chaisewhiz/img_0196.png)
 
-## Parts List
+### 📁 Files
 
-- **MagStrap Brackets**: Order 4 from [sendcutsend.com](https://sendcutsend.com). Use ¼" A36 HRPO steel. For stainless, adjust the bend radius in Fusion to avoid alerts. You can have SendCutSend tap the ¼-20 holes or do it yourself.
-- **MagStrap Center Protectors**: 3D print 4.
-- **MagStrap Side Protectors**: 3D print 8.
-- **Mounting Hardware**: 24x ¼-20 x 5/8" flat head socket cap screws.
-- **Straps**: Order from [customtiedowns.com](https://customtiedowns.com). For a Rep (41" rack), use 42" (3.5') straps with protective covers.
-  - Straps: Search for `35094`
-  - Protectors: Search for `35093`
+- [magstrap-bracket.step](chaisewhiz/magstrap-bracket.step)
+- [magstrap-center-protector.3mf](chaisewhiz/magstrap-center-protector.3mf)
+- [magstrap-side-protector.3mf](chaisewhiz/magstrap-side-protector.3mf)
+- [Full Fusion archive](chaisewhiz/magstrap.f3z)
 
-## Assembly
+### 🔧 Specifications & Parts
 
-1. Mount the MagStrap Brackets to the rack upright using mag pins.
-2. Attach the Center and Side Protectors to the brackets with the socket cap screws.
-3. Install the straps as needed for your rack.
+- Order four brackets from [SendCutSend](https://sendcutsend.com) using ¼" A36 HRPO steel (adjust bend radius for stainless)
+- Optional SendCutSend tapping service for the ¼-20 holes
+- 3D print 4× center protectors and 8× side protectors
+- Hardware: 24 × ¼-20 × 5/8" flat-head socket cap screws
+- Straps from [customtiedowns.com](https://customtiedowns.com)
+  - Straps search: `35094`
+  - Protectors search: `35093`
 
-## Notes
+### 🛠️ Assembly
 
-- No engineering analysis has been performed. This is a DIY project provided as-is, with no warranty or suitability for purpose implied (see BSD license).
-- Use at your own risk.
+1. Mount brackets to the rack using mag pins
+2. Fasten center and side protectors to the brackets using the socket cap screws
+3. Install straps and adjust to rack depth/height
 
-## Files
+### ⚠️ Notes
 
-- [magstrap-bracket.step](chaisewhiz/magstrap-bracket.step) – Laser cut bracket file
-- [magstrap-center-protector.3mf](chaisewhiz/magstrap-center-protector.3mf) – 3D print file for center protector
-- [magstrap-side-protector.3mf](chaisewhiz/magstrap-side-protector.3mf) – 3D print file for side protector
-- [Fusion-File](chaisewhiz/magstrap.f3z) - Fusion files for editing
+- DIY project provided as-is—no formal engineering analysis has been performed
+- Inspect hardware regularly and replace straps when frayed
+- Use at your own risk (see BSD license)
 
-## License
+### 📝 Credits
 
-BSD License – See [LICENSE](../LICENSE) for details.
+Design by Chaisewhiz — Licensed under BSD (see [LICENSE](../LICENSE))
