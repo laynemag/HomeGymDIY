@@ -244,7 +244,8 @@ function main() {
     const label = (folderPage && (folderPage.meta && (folderPage.meta.nav_title || folderPage.meta.title))) || sanitizeTitle(f.replace(/[-_]/g, ' '));
     return `<li><a href="${BASE_URL}${f}/">${label}</a></li>`;
   })).join('\n');
-  const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul>`;
+  const navItems2 = [`<li><a href="${BASE_URL}requests/">Requests</a></li>`].join('\n');
+  const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul><div class="nav-folder-heading">Community</div><ul class="nav-list">${navItems2}</ul>`;
 
   // create root index page (show repo README if present)
   const rootPage = pages.find(p => p.rel === '.' || p.rel === '');
@@ -314,6 +315,100 @@ function main() {
       console.warn('-', m.file, 'referenced in', m.page, '->', m.reason);
     }
   }
+
+  // Generate requests page
+  const requestsContent = `<h1>Part Requests</h1>
+<p>Have an idea for a part? Submit a request below!</p>
+<div style="background:#f0f9ff;border:1px solid #bfdbfe;border-radius:8px;padding:20px;margin:24px 0">
+  <h2>Submit a Request</h2>
+  <form id="request-form">
+    <div style="margin-bottom:16px">
+      <label for="part-name" style="display:block;font-weight:600;margin-bottom:6px">Part Name</label>
+      <input type="text" id="part-name" name="part-name" placeholder="e.g., Weighted Dip Belt Attachment" required style="width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:4px;box-sizing:border-box;font-family:inherit">
+    </div>
+    <div style="margin-bottom:16px">
+      <label for="description" style="display:block;font-weight:600;margin-bottom:6px">Description</label>
+      <textarea id="description" name="description" placeholder="Describe the part, its purpose, and any relevant details..." rows="4" required style="width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:4px;box-sizing:border-box;font-family:inherit"></textarea>
+    </div>
+    <div style="margin-bottom:16px">
+      <label for="category" style="display:block;font-weight:600;margin-bottom:6px">Category</label>
+      <select id="category" name="category" required style="width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:4px;box-sizing:border-box;font-family:inherit">
+        <option value="">-- Select a category --</option>
+        <option value="Handles">Handles</option>
+        <option value="Voltra Mounts">Voltra Mounts</option>
+        <option value="Rack Attachments">Rack Attachments</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <button type="submit" style="background:#0f172a;color:#fff;padding:10px 20px;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:16px">Submit Request</button>
+  </form>
+</div>
+
+<h2 style="margin-top:40px">Open Requests</h2>
+<div id="issues-list" style="margin-top:16px">
+  <p style="color:#666">Loading requests...</p>
+</div>
+
+<script>
+  const BASE_URL = '${BASE_URL}';
+  const REPO = 'laynemag/HomeGymDIY';
+  
+  document.getElementById('request-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const partName = document.getElementById('part-name').value;
+    const description = document.getElementById('description').value;
+    const category = document.getElementById('category').value;
+    
+    const title = encodeURIComponent(\`Part Request: \${partName}\`);
+    const body = encodeURIComponent(\`**Category:** \${category}\\n\\n\${description}\`);
+    const labels = 'request';
+    
+    // Open GitHub issue creation page with pre-filled fields
+    window.open(\`https://github.com/\${REPO}/issues/new?title=\${title}&body=\${body}&labels=\${labels}\`, '_blank');
+    
+    // Reset form
+    this.reset();
+  });
+  
+  // Fetch and display open requests
+  async function loadRequests() {
+    try {
+      const response = await fetch(\`https://api.github.com/repos/\${REPO}/issues?labels=request&state=open&per_page=50\`);
+      const issues = await response.json();
+      
+      const container = document.getElementById('issues-list');
+      
+      if (!Array.isArray(issues) || issues.length === 0) {
+        container.innerHTML = '<p style="color:#666">No open requests yet. Be the first to submit one!</p>';
+        return;
+      }
+      
+      let html = '<ul style="list-style:none;padding:0;margin:0">';
+      for (const issue of issues) {
+        const createdDate = new Date(issue.created_at).toLocaleDateString();
+        const category = issue.body.match(/\\*\\*Category:\\*\\*\\s*(.+?)\\n/) ? issue.body.match(/\\*\\*Category:\\*\\*\\s*(.+?)\\n/)[1] : 'Uncategorized';
+        html += \`<li style="border:1px solid #e5e7eb;border-radius:6px;padding:16px;margin-bottom:12px;background:#fff">
+          <h3 style="margin:0 0 8px 0;color:#0f172a"><a href="https://github.com/\${REPO}/issues/\${issue.number}" target="_blank" style="color:#0f172a;text-decoration:none">\${issue.title}</a></h3>
+          <p style="margin:0 0 8px 0;color:#666;font-size:14px">Category: <strong>\${category}</strong> | Created: \${createdDate} | <a href="https://github.com/\${REPO}/issues/\${issue.number}" target="_blank" style="color:#0b7ada;text-decoration:none">#\${issue.number}</a></p>
+          <div style="font-size:14px;color:#444;line-height:1.5">\${issue.body.replace(/\\*\\*Category:\\*\\*.+?\\n/, '').substring(0, 200)}...</div>
+        </li>\`;
+      }
+      html += '</ul>';
+      container.innerHTML = html;
+    } catch (error) {
+      console.error('Error loading requests:', error);
+      document.getElementById('issues-list').innerHTML = '<p style="color:#d32f2f">Failed to load requests. Please try again later.</p>';
+    }
+  }
+  
+  loadRequests();
+</script>`;
+
+  const requestsPath = path.join(OUT, 'requests');
+  ensureDir(requestsPath);
+  fs.writeFileSync(path.join(requestsPath, 'index.html'), layout('Part Requests', navHtml, requestsContent), 'utf8');
+  console.log('Wrote', path.join(requestsPath, 'index.html'));
 
   console.log('Site generated to', OUT);
 }
