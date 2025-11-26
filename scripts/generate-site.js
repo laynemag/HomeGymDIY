@@ -232,14 +232,22 @@ function main() {
     if (folderIntroPage) {
       copyAssetsForMarkdown(folderIntroPage.md, folderIntroPage, copied, missing);
     }
-    let introHtml = folderIntroPage ? marked(folderIntroPage.md) : `<p>Contents of ${f}</p>`;
+    let introHtml = '';
+    if (folderIntroPage) {
+      // Strip the first H1 from markdown if it exists (since we'll use the frontmatter title instead)
+      let mdContent = folderIntroPage.md.replace(/^#\s+.+\n/, '');
+      introHtml = marked(mdContent);
+    } else {
+      introHtml = `<p>Contents of ${f}</p>`;
+    }
     introHtml = wrapImagesInFigures(introHtml);
+    // Get the title from frontmatter, or fall back to folder name
+    const folderTitle = (folderIntroPage && folderIntroPage.meta && (folderIntroPage.meta.nav_title || folderIntroPage.meta.title)) || sanitizeTitle(f.replace(/[-_]/g, ' '));
     // find sub-pages under this folder (exclude the folder README itself)
     const subpages = pages.filter(p => p.rel !== f && p.rel.startsWith(f + '/'))
       .sort((a, b) => a.title.localeCompare(b.title));
     const listHtml = subpages.length ? '<ul>' + subpages.map(sp => `\n<li><a href="/${sp.url}">${sp.title}</a></li>`).join('') + '\n</ul>' : '<p>No projects found.</p>';
-    const folderTitle = sanitizeTitle(f.replace(/[-_]/g, ' '));
-    const contentHtml = `${introHtml}<h2>Projects</h2>${listHtml}`;
+    const contentHtml = `<h1>${folderTitle}</h1>${introHtml}<h2>Projects</h2>${listHtml}`;
     const outFolderIndex = path.join(OUT, f, 'index.html');
     ensureDir(path.dirname(outFolderIndex));
     fs.writeFileSync(outFolderIndex, layout(folderTitle, navHtml, contentHtml), 'utf8');
