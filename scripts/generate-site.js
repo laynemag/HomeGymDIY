@@ -279,8 +279,8 @@ function main() {
     // find sub-pages under this folder (exclude the folder README itself)
     const subpages = pages.filter(p => p.rel !== f && p.rel.startsWith(f + '/'))
       .sort((a, b) => a.title.localeCompare(b.title));
-    const listHtml = subpages.length ? '<ul>' + subpages.map(sp => `\n<li><a href="/${sp.url}">${sp.title}</a></li>`).join('') + '\n</ul>' : '<p>No projects found.</p>';
-    const contentHtml = `<h1>${folderTitle}</h1>${introHtml}<h2>Projects</h2>${listHtml}`;
+    // Note: subpages section removed as all content is in folder README
+    const contentHtml = `<h1>${folderTitle}</h1>${introHtml}`;
     const outFolderIndex = path.join(OUT, f, 'index.html');
     ensureDir(path.dirname(outFolderIndex));
     fs.writeFileSync(outFolderIndex, layout(folderTitle, navHtml, contentHtml), 'utf8');
