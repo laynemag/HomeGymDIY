@@ -3,44 +3,78 @@ title: Home
 nav_title: Home
 ---
 
-Repository for DIY home gym projects and information
+## Welcome to HomeGymDIY
+
+A community-driven collection of open-source DIY home gym projects, designs, and tools. Browse projects, compare costs, build custom parts lists, and request custom fabrications—all in one place.
 
 ---
 
-## Requests
+## 🔍 Explore Projects
 
-Need a custom metal bracket, 3D printed accessory, or other part? You can submit a request even if you are brand new to GitHub:
+Browse our curated collection of DIY home gym designs organized by category:
 
-1. [Create a free GitHub account](https://github.com/signup) if you do not already have one.
-2. Click **Issues** ▸ **New issue** ▸ choose **Part Request**.
-3. Fill in the short form (what the part does, material, dimensions, mounting hardware, reference links/photos, and how to contact you). Drag-and-drop images or sketches directly into the issue.
-4. Submit the issue. You can edit it later if you remember more details.
+- **[Handles](handles/)** — Custom barbell handles and attachments
+- **[Voltra Mounts](voltra_mounts/)** — Mounting solutions and brackets
+- **[Rack Attachments](rack_attachments/)** — Safety systems and accessory mounts
+- **[Miscellaneous](misc/)** — Hooks, storage, and other gym accessories
 
-Every request automatically gets a `request` label so we can track it. We will reply on the issue if we need clarification or to share progress.
+Each project includes design files (.STEP, .DXF, .STL), cost breakdowns, difficulty ratings, and creator details.
 
-## Project Organziation
+---
 
-Folders will be organized into general more generalized parts, and will have their own README.md files with specific details.
+## 💰 Tools & Features
 
-## Getting Your Custom Stuff Made
+### [Cost Comparison](cost-comparison/)
+See all projects at a glance with detailed pricing, materials, and difficulty levels. Sort by cost, category, or difficulty to find the perfect project for your build.
 
-The most common service used has been Send Cut Send, however Oshcut and many others might be cheaper or offer more specialized services like bending close to holes, etc.
+### [BOM Builder](bom/)
+Plan your custom build! Select which projects you want to combine and generate a shopping list with all parts organized by supplier. Export directly to your clipboard for easy ordering.
 
-# Repo Contents
+### [Part Requests](requests/)
+Need a custom bracket, 3D printed accessory, or fabricated part? Submit requests directly through GitHub—no complex forms required. Browse open requests and see what the community is working on.
 
-### [Voltra Mounts](voltra_mounts/)
+---
 
-### [Handles](handles/)
+## 📋 How to Use This Site
 
-### [Misc](misc/)
+1. **Browse Projects** — Start in any category folder to see available designs
+2. **Compare Costs** — Use the cost comparison tool to find budget-friendly options
+3. **Plan Your Build** — Use the BOM builder to combine projects and get a shopping list
+4. **Request Parts** — Submit custom part requests via the requests page
+5. **Download Files** — Get all design files (STEP, DXF, STL, etc.) to fabricate locally or through services
 
-# Contribution Guidelines
+---
 
-Contributions are welcomed, but make sure to follow the contributing guidelines here:
+## 🛠️ How to Get Parts Made
 
-1. Give credit to the original creator
-2. Update or create a new folder, update folder README.md file with creator, pricing, and real world images with the creation in use.
-   1. Add SCS details about tapping, material thickness, and relavent details to have the item made
-   2. Upload relevant files into new folder like .step, .dxf, or .stl so other members can use your part
-3. Keep the formatting of the README.md
-4. Follow the same rules as the HomeGymDiscord
+Most projects use services like **Send Cut Send**, **Oshcut**, or **3D printing services**. Check individual project pages for specific recommendations and vendor links.
+
+---
+
+## 📝 Contributing
+
+We welcome contributions! Here's how to add your projects:
+
+1. **Create or update** a folder in the appropriate category
+2. **Add a README.md** with project details, creator info, cost, and real-world photos
+3. **Upload design files** (.STEP, .DXF, .STL, etc.) so others can use your design
+4. **Include fabrication notes** — material thickness, SCS specifications, mounting hardware, etc.
+5. **Give credit** to original creators
+
+---
+
+## 🎓 Difficulty Ratings
+
+- **Easy** — Basic tools, straightforward assembly
+- **Medium** — Some fabrication skills needed, standard tools
+- **Hard** — Advanced fabrication, specialized equipment or services required
+
+---
+
+## 🌙 Dark Mode
+
+Toggle dark mode using the button in the top-right corner. Your preference is saved automatically.
+
+---
+
+**Built by the community for the community. Questions? [Submit a GitHub issue](https://github.com/laynemag/HomeGymDIY/issues).**
