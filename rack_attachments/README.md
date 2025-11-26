@@ -42,6 +42,7 @@ This build provides a quick adjust strap safety system using mag pins to mount t
 - [magstrap-bracket.step](chaisewhiz/magstrap-bracket.step) – Laser cut bracket file
 - [magstrap-center-protector.3mf](chaisewhiz/magstrap-center-protector.3mf) – 3D print file for center protector
 - [magstrap-side-protector.3mf](chaisewhiz/magstrap-side-protector.3mf) – 3D print file for side protector
+- [Fusion-File](chaisewhiz/magstrap.f3z) - Fusion files for editing
 
 ## License
 
