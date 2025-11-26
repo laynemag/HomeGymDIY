@@ -195,11 +195,12 @@ function main() {
   });
 
   const topList = Array.from(topFolders).sort();
-  const navItems = [`<li><a href="/">Home</a></li>`].concat(topList.map(f => {
+  const BASE_URL = '/HomeGymDIY/';
+  const navItems = [`<li><a href="${BASE_URL}">Home</a></li>`].concat(topList.map(f => {
     // look for a folder README meta to provide a nicer label
     const folderPage = pages.find(p => p.rel === f);
     const label = (folderPage && (folderPage.meta && (folderPage.meta.nav_title || folderPage.meta.title))) || sanitizeTitle(f.replace(/[-_]/g, ' '));
-    return `<li><a href="/${f}/">${label}</a></li>`;
+    return `<li><a href="${BASE_URL}${f}/">${label}</a></li>`;
   })).join('\n');
   const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul>`;
 
