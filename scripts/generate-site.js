@@ -244,8 +244,8 @@ function main() {
     const label = (folderPage && (folderPage.meta && (folderPage.meta.nav_title || folderPage.meta.title))) || sanitizeTitle(f.replace(/[-_]/g, ' '));
     return `<li><a href="${BASE_URL}${f}/">${label}</a></li>`;
   })).join('\n');
-  const navItems2 = [`<li><a href="${BASE_URL}requests/">Project Requests</a></li>`].join('\n');
-  const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul><div class="nav-folder-heading">Community</div><ul class="nav-list">${navItems2}</ul>`;
+  const navItems2 = [`<li><a href="${BASE_URL}cost-comparison/">Costs</a></li>`, `<li><a href="${BASE_URL}bom/">BOM Builder</a></li>`, `<li><a href="${BASE_URL}requests/">Requests</a></li>`].join('\n');
+  const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul><div class="nav-folder-heading">Tools</div><ul class="nav-list">${navItems2}</ul>`;
 
   // create root index page (show repo README if present)
   const rootPage = pages.find(p => p.rel === '.' || p.rel === '');
@@ -409,6 +409,120 @@ function main() {
   ensureDir(requestsPath);
   fs.writeFileSync(path.join(requestsPath, 'index.html'), layout('Part Requests', navHtml, requestsContent), 'utf8');
   console.log('Wrote', path.join(requestsPath, 'index.html'));
+
+  // Build projects catalog for cost table and BOM
+  const projectsCatalog = [
+    {
+      id: 'tranman-open-d',
+      name: 'Tranman Open D Handles',
+      category: 'Handles',
+      creator: 'Tranman',
+      difficulty: 'Medium',
+      material: 'Stainless Steel 304',
+      cost: 0,
+      notes: 'Requires M10 1.5 tap for swivel hook',
+      parts: [
+        { name: 'M10 1.5 Hex Nut', qty: 1, source: 'Amazon', url: 'https://www.amazon.com/s?k=M10+1.5+hex+nut' },
+        { name: 'Rogue H5 Multi-Grip Handles (Aluminum)', qty: 1, source: 'Rogue Fitness', url: 'https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles' },
+        { name: 'Adjustable Dumbbell Swivel Eye Hooks', qty: 1, source: 'Egg Weights', url: 'https://eggweights.com/products/adjustable-dumbbell-swivel-eye-hooks' }
+      ]
+    },
+    {
+      id: 'tranman-voltra-mount',
+      name: 'Tranman Low Profile Fixed Mount',
+      category: 'Voltra Mounts',
+      creator: 'Tranman',
+      difficulty: 'Medium',
+      material: 'Stainless Steel 304',
+      cost: 54.70,
+      notes: 'Requires 3D printed shim. Voltra can only mount in one orientation.',
+      parts: [
+        { name: 'M5 x 0.8 Countersunk Hex Bolts', qty: 4, source: 'Hardware Store', url: '' },
+        { name: '3D Printed Shim', qty: 1, source: 'Makerworld (free model)', url: 'https://makerworld.com/en/models/2019445-low-profile-fixed-voltra-mount-shim' }
+      ]
+    },
+    {
+      id: 'wamoore911-squat-stand',
+      name: 'wamoore911 Belt Squat Stand Mount',
+      category: 'Voltra Mounts',
+      creator: 'wamoore911',
+      difficulty: 'Hard',
+      material: 'Steel Plate + Lumber (2x6, 4x4)',
+      cost: 100,
+      notes: 'SendCutSend plate recommended. Use powder coating, not clear coat.',
+      parts: [
+        { name: '2x6 Lumber', qty: 1, source: 'Home Depot', url: 'https://www.homedepot.com' },
+        { name: '4x4 Lumber', qty: 1, source: 'Home Depot', url: 'https://www.homedepot.com' },
+        { name: 'Steel Mounting Plate (from DXF)', qty: 1, source: 'SendCutSend', url: 'https://www.sendcutsend.com' }
+      ]
+    },
+    {
+      id: 'drtattywaffles-triple',
+      name: 'Dr Tatty Waffles Triple Voltra Bracket',
+      category: 'Voltra Mounts',
+      creator: 'Dr Tatty Waffles',
+      difficulty: 'Medium',
+      material: 'Steel',
+      cost: 80,
+      notes: 'Allows mounting three Voltra units simultaneously',
+      parts: [
+        { name: 'Steel Brackets (from DXF)', qty: 1, source: 'SendCutSend', url: 'https://www.sendcutsend.com' },
+        { name: 'Mounting Hardware', qty: 12, source: 'Hardware Store', url: '' }
+      ]
+    },
+    {
+      id: 'chaisewhiz-magstrap',
+      name: 'Chaisewhiz MagStrap Safety System',
+      category: 'Rack Attachments',
+      creator: 'Chaisewhiz',
+      difficulty: 'Medium',
+      material: 'A36 Steel + 3D Prints',
+      cost: 150,
+      notes: 'Includes custom straps and 3D printed protectors',
+      parts: [
+        { name: 'MagStrap Brackets (¼" A36 HRPO steel from SendCutSend)', qty: 4, source: 'SendCutSend', url: 'https://www.sendcutsend.com' },
+        { name: '¼-20 x 5/8" Flat Head Socket Cap Screws', qty: 24, source: 'Amazon', url: 'https://www.amazon.com/s?k=socket+cap+screws' },
+        { name: 'Custom Straps 42" with covers', qty: 1, source: 'CustomTieDowns', url: 'https://customtiedowns.com' }
+      ]
+    },
+    {
+      id: 'markofzen-utility-hook',
+      name: 'Ryan\'s Power Rack Utility Hook',
+      category: 'Miscellaneous',
+      creator: 'Ryan (markofzen)',
+      difficulty: 'Easy',
+      material: 'Stainless Steel',
+      cost: 30,
+      notes: '4mm thick. Cost for 12 hooks via SCS.',
+      parts: []
+    }
+  ];
+
+  // Generate cost comparison page
+  let costTableHtml = '';
+  for (const p of projectsCatalog) {
+    costTableHtml += '<tr><td>' + p.name + '</td><td>' + p.creator + '</td><td>' + p.category + '</td><td>$' + p.cost.toFixed(2) + '</td><td>' + p.difficulty + '</td><td>' + p.material + '</td></tr>';
+  }
+
+  const costContent = '<h1>Cost Comparison</h1><p>Compare DIY projects by cost, difficulty, and material. Costs shown are estimates and may vary based on sourcing.</p><div style="overflow-x:auto;margin:24px 0"><table style="width:100%;border-collapse:collapse;font-size:14px"><thead><tr style="background:#f0f9ff;border-bottom:2px solid #0f172a"><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(0)">Project ↕</th><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(1)">Creator ↕</th><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(2)">Category ↕</th><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(3)">Cost ↕</th><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(4)">Difficulty ↕</th><th style="padding:12px;text-align:left;font-weight:600;cursor:pointer" onclick="sortTable(5)">Material ↕</th></tr></thead><tbody>' + costTableHtml + '</tbody></table></div><p style="font-size:13px;color:#666;margin-top:32px">💡 <strong>Tip:</strong> Click column headers to sort. Use the <a href="' + BASE_URL + 'bom/">BOM Builder</a> to select multiple projects and create a combined shopping list.</p><script>function sortTable(col){const table=document.querySelector("table tbody");const rows=Array.from(table.querySelectorAll("tr"));rows.sort((a,b)=>{const aVal=a.cells[col].textContent.trim();const bVal=b.cells[col].textContent.trim();if(col===3){return parseFloat(aVal)-parseFloat(bVal);}return aVal.localeCompare(bVal);});rows.forEach(row=>table.appendChild(row));}</script>';
+
+  const costPath = path.join(OUT, 'cost-comparison');
+  ensureDir(costPath);
+  fs.writeFileSync(path.join(costPath, 'index.html'), layout('Cost Comparison', navHtml, costContent), 'utf8');
+  console.log('Wrote', path.join(costPath, 'index.html'));
+
+  // Generate BOM Builder page
+  let projectOptions = '';
+  for (const p of projectsCatalog) {
+    projectOptions += '<label style="display:block;margin:8px 0;cursor:pointer"><input type="checkbox" class="project-checkbox" data-project="' + JSON.stringify(p).replace(/"/g, '&quot;') + '" style="margin-right:8px"> ' + p.name + ' ($' + p.cost + ')</label>';
+  }
+
+  const bomContent = '<h1>BOM Builder</h1><p>Select projects below to generate a combined shopping list of all parts and hardware needed.</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0"><div><h2 style="margin-top:0">Select Projects</h2><div style="background:#f8fafc;border:1px solid #e6eef6;border-radius:6px;padding:16px;max-height:400px;overflow-y:auto">' + projectOptions + '</div><p style="font-size:13px;color:#666;margin-top:12px">Select one or more projects to see combined parts list.</p></div><div><h2 style="margin-top:0">Parts List</h2><div id="bom-list" style="background:#f8fafc;border:1px solid #e6eef6;border-radius:6px;padding:16px;min-height:300px"><p style="color:#999">Select projects to view parts</p></div><button onclick="copyBOM()" style="margin-top:12px;background:#0f172a;color:#fff;padding:10px 16px;border:none;border-radius:4px;cursor:pointer;font-weight:600">Copy to Clipboard</button></div></div><script>const projectsCatalog=' + JSON.stringify(projectsCatalog) + ';document.querySelectorAll(".project-checkbox").forEach(cb=>{cb.addEventListener("change",updateBOM);});function updateBOM(){const selected=Array.from(document.querySelectorAll(".project-checkbox:checked")).map(cb=>JSON.parse(cb.dataset.project));if(selected.length===0){document.getElementById("bom-list").innerHTML="<p style=\"color:#999\">Select projects to view parts</p>";return;}const partMap=new Map();const partsBySource={};for(const project of selected){for(const part of project.parts){const key=part.name;if(partMap.has(key)){const existing=partMap.get(key);existing.qty+=part.qty;}else{partMap.set(key,{...part});if(!partsBySource[part.source])partsBySource[part.source]=[];partsBySource[part.source].push(key);}}}let html="<h3 style=\"margin-top:0\">Combined Parts ("+partMap.size+")</h3>";for(const source of Object.keys(partsBySource).sort()){html+="<div style=\"margin-bottom:16px\"><p style=\"font-weight:600;margin:0 0 8px 0;color:#0f172a\">"+source+"</p><ul style=\"list-style:none;padding:0;margin:0\">";for(const partName of partsBySource[source]){const part=partMap.get(partName);const link=part.url?" - <a href=\""+part.url+"\" target=\"_blank\" style=\"color:#0b7ada\">Link</a>":"";html+="<li style=\"padding:4px 0;font-size:14px\">• "+part.qty+"x "+part.name+link+"</li>";}html+="</ul></div>";}document.getElementById("bom-list").innerHTML=html;}function copyBOM(){const selected=Array.from(document.querySelectorAll(".project-checkbox:checked")).map(cb=>JSON.parse(cb.dataset.project));if(selected.length===0)return;let text="HomeGymDIY BOM\\n\\n";text+="Selected Projects:\\n";selected.forEach(p=>text+="• "+p.name+" ($"+p.cost+")\\n");text+="\\nTotal Projects Cost: $"+selected.reduce((sum,p)=>sum+p.cost,0)+"\\n\\n";text+="═══════════════════════════════════════\\n\\n";const partMap=new Map();const partsBySource={};for(const project of selected){for(const part of project.parts){const key=part.name;if(partMap.has(key)){const existing=partMap.get(key);existing.qty+=part.qty;}else{partMap.set(key,{...part});if(!partsBySource[part.source])partsBySource[part.source]=[];partsBySource[part.source].push(key);}}}for(const source of Object.keys(partsBySource).sort()){text+=source+":\\n";for(const partName of partsBySource[source]){const part=partMap.get(partName);text+="  • "+part.qty+"x "+part.name+(part.url?" - "+part.url:"")+"\\n";}text+="\\n";}navigator.clipboard.writeText(text).then(()=>{alert("BOM copied to clipboard!");}).catch(err=>console.error("Failed to copy:",err));}</script>';
+
+  const bomPath = path.join(OUT, 'bom');
+  ensureDir(bomPath);
+  fs.writeFileSync(path.join(bomPath, 'index.html'), layout('BOM Builder', navHtml, bomContent), 'utf8');
+  console.log('Wrote', path.join(bomPath, 'index.html'));
 
   console.log('Site generated to', OUT);
 }
