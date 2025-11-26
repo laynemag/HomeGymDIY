@@ -410,93 +410,32 @@ function main() {
   fs.writeFileSync(path.join(requestsPath, 'index.html'), layout('Part Requests', navHtml, requestsContent), 'utf8');
   console.log('Wrote', path.join(requestsPath, 'index.html'));
 
-  // Build projects catalog for cost table and BOM
-  const projectsCatalog = [
-    {
-      id: 'tranman-open-d',
-      name: 'Tranman Open D Handles',
-      category: 'Handles',
-      creator: 'Tranman',
-      difficulty: 'Medium',
-      material: 'Stainless Steel 304',
-      cost: 0,
-      notes: 'Requires M10 1.5 tap for swivel hook',
-      parts: [
-        { name: 'M10 1.5 Hex Nut', qty: 1, source: 'Amazon', url: 'https://www.amazon.com/s?k=M10+1.5+hex+nut' },
-        { name: 'Rogue H5 Multi-Grip Handles (Aluminum)', qty: 1, source: 'Rogue Fitness', url: 'https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles' },
-        { name: 'Adjustable Dumbbell Swivel Eye Hooks', qty: 1, source: 'Egg Weights', url: 'https://eggweights.com/products/adjustable-dumbbell-swivel-eye-hooks' }
-      ]
-    },
-    {
-      id: 'tranman-voltra-mount',
-      name: 'Tranman Low Profile Fixed Mount',
-      category: 'Voltra Mounts',
-      creator: 'Tranman',
-      difficulty: 'Medium',
-      material: 'Stainless Steel 304',
-      cost: 54.70,
-      notes: 'Requires 3D printed shim. Voltra can only mount in one orientation.',
-      parts: [
-        { name: 'M5 x 0.8 Countersunk Hex Bolts', qty: 4, source: 'Hardware Store', url: '' },
-        { name: '3D Printed Shim', qty: 1, source: 'Makerworld (free model)', url: 'https://makerworld.com/en/models/2019445-low-profile-fixed-voltra-mount-shim' }
-      ]
-    },
-    {
-      id: 'wamoore911-squat-stand',
-      name: 'wamoore911 Belt Squat Stand Mount',
-      category: 'Voltra Mounts',
-      creator: 'wamoore911',
-      difficulty: 'Hard',
-      material: 'Steel Plate + Lumber (2x6, 4x4)',
-      cost: 100,
-      notes: 'SendCutSend plate recommended. Use powder coating, not clear coat.',
-      parts: [
-        { name: '2x6 Lumber', qty: 1, source: 'Home Depot', url: 'https://www.homedepot.com' },
-        { name: '4x4 Lumber', qty: 1, source: 'Home Depot', url: 'https://www.homedepot.com' },
-        { name: 'Steel Mounting Plate (from DXF)', qty: 1, source: 'SendCutSend', url: 'https://www.sendcutsend.com' }
-      ]
-    },
-    {
-      id: 'drtattywaffles-triple',
-      name: 'Dr Tatty Waffles Triple Voltra Bracket',
-      category: 'Voltra Mounts',
-      creator: 'Dr Tatty Waffles',
-      difficulty: 'Medium',
-      material: 'Steel',
-      cost: 80,
-      notes: 'Allows mounting three Voltra units simultaneously',
-      parts: [
-        { name: 'Steel Brackets (from DXF)', qty: 1, source: 'SendCutSend', url: 'https://www.sendcutsend.com' },
-        { name: 'Mounting Hardware', qty: 12, source: 'Hardware Store', url: '' }
-      ]
-    },
-    {
-      id: 'chaisewhiz-magstrap',
-      name: 'Chaisewhiz MagStrap Safety System',
-      category: 'Rack Attachments',
-      creator: 'Chaisewhiz',
-      difficulty: 'Medium',
-      material: 'A36 Steel + 3D Prints',
-      cost: 150,
-      notes: 'Includes custom straps and 3D printed protectors',
-      parts: [
-        { name: 'MagStrap Brackets (¼" A36 HRPO steel from SendCutSend)', qty: 4, source: 'SendCutSend', url: 'https://www.sendcutsend.com' },
-        { name: '¼-20 x 5/8" Flat Head Socket Cap Screws', qty: 24, source: 'Amazon', url: 'https://www.amazon.com/s?k=socket+cap+screws' },
-        { name: 'Custom Straps 42" with covers', qty: 1, source: 'CustomTieDowns', url: 'https://customtiedowns.com' }
-      ]
-    },
-    {
-      id: 'markofzen-utility-hook',
-      name: 'Ryan\'s Power Rack Utility Hook',
-      category: 'Miscellaneous',
-      creator: 'Ryan (markofzen)',
-      difficulty: 'Easy',
-      material: 'Stainless Steel',
-      cost: 30,
-      notes: '4mm thick. Cost for 12 hooks via SCS.',
-      parts: []
+  // Load projects catalog from external JSON file for easy maintenance
+  let projectsCatalog = [];
+  try {
+    const projectsFile = path.join(ROOT, 'projects.json');
+    if (fs.existsSync(projectsFile)) {
+      const rawData = fs.readFileSync(projectsFile, 'utf8');
+      const projectsData = JSON.parse(rawData);
+      projectsCatalog = projectsData.projects || [];
+      console.log('Loaded', projectsCatalog.length, 'projects from projects.json');
+      
+      // Optional: Calculate costs from parts if not specified
+      projectsCatalog = projectsCatalog.map(p => {
+        if (p.cost === 0 && p.parts && p.parts.length > 0) {
+          const calculatedCost = p.parts.reduce((sum, part) => sum + (part.estimatedCost || 0), 0);
+          if (calculatedCost > 0) {
+            console.log(`  - ${p.name}: calculated cost $${calculatedCost.toFixed(2)} from parts`);
+          }
+        }
+        return p;
+      });
+    } else {
+      console.warn('projects.json not found, using empty catalog');
     }
-  ];
+  } catch (e) {
+    console.error('Error loading projects.json:', e.message);
+  }
 
   // Generate cost comparison page
   let costTableHtml = '';
