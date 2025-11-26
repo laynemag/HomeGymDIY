@@ -105,37 +105,69 @@ function extractImagePathsFromMarkdown(md) {
   return imgs;
 }
 
+function extractAllFilePathsFromMarkdown(md) {
+  const files = [];
+  if (!md) return files;
+  // Extract image paths: ![alt](path)
+  const imgRe = /!\[[^\]]*\]\(([^)]+)\)/g;
+  let m;
+  while ((m = imgRe.exec(md)) !== null) {
+    let path = m[1].split(/\s+/)[0];
+    path = path.replace(/^<|>$/g, '').replace(/^['"]|['"]$/g, '');
+    files.push(path);
+  }
+  // Extract link paths: [text](path)
+  const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
+  while ((m = linkRe.exec(md)) !== null) {
+    let path = m[2].split(/\s+/)[0];
+    path = path.replace(/^<|>$/g, '').replace(/^['"]|['"]$/g, '');
+    // Skip URLs and already-added paths
+    if (!path.toLowerCase().startsWith('http') && !path.toLowerCase().startsWith('//') && !files.includes(path)) {
+      files.push(path);
+    }
+  }
+  return files;
+}
+
 function copyAssetsForMarkdown(md, page, copied, missing) {
-  const imgs = extractImagePathsFromMarkdown(md);
-  for (const imgPath of imgs) {
-    if (!imgPath) continue;
-    const lower = imgPath.toLowerCase();
+  const files = extractAllFilePathsFromMarkdown(md);
+  for (const filePath of files) {
+    if (!filePath) continue;
+    
+    // Decode URL-encoded filenames (e.g., "scs%20d%20handle.step" -> "scs d handle.step")
+    const decodedPath = decodeURIComponent(filePath);
+    
+    const lower = decodedPath.toLowerCase();
     if (lower.startsWith('http:') || lower.startsWith('https:') || lower.startsWith('//') || lower.startsWith('data:')) continue;
     // resolve source
     let source;
-    if (imgPath.startsWith('/')) {
-      source = path.join(ROOT, imgPath.replace(/^\//, ''));
+    if (decodedPath.startsWith('/')) {
+      source = path.join(ROOT, decodedPath.replace(/^\//, ''));
     } else {
-      source = path.join(path.dirname(page.src), imgPath);
+      source = path.join(path.dirname(page.src), decodedPath);
     }
     // normalize and ensure within repo
     const relFromRoot = path.relative(ROOT, source);
     if (relFromRoot.startsWith('..')) {
-      missing.push({ page: page.src, img: imgPath, reason: 'outside repo' });
+      missing.push({ page: page.src, file: decodedPath, reason: 'outside repo' });
       continue;
     }
     const dest = path.join(OUT, relFromRoot);
     if (copied.has(dest)) continue;
     if (fs.existsSync(source)) {
+      // Skip if source is a directory
+      const stat = fs.statSync(source);
+      if (stat.isDirectory()) continue;
+      
       ensureDir(path.dirname(dest));
       try {
         fs.copyFileSync(source, dest);
         copied.add(dest);
       } catch (e) {
-        missing.push({ page: page.src, img: imgPath, reason: e.message });
+        missing.push({ page: page.src, file: decodedPath, reason: e.message });
       }
     } else {
-      missing.push({ page: page.src, img: imgPath, reason: 'not found' });
+      missing.push({ page: page.src, file: decodedPath, reason: 'not found' });
     }
   }
 }
@@ -279,7 +311,7 @@ function main() {
   if (missing.length) {
     console.warn('\nWarning: some referenced assets were not found or failed to copy:');
     for (const m of missing) {
-      console.warn('-', m.img, 'referenced in', m.page, '->', m.reason);
+      console.warn('-', m.file, 'referenced in', m.page, '->', m.reason);
     }
   }
 
