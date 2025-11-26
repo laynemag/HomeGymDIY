@@ -274,10 +274,10 @@ function main() {
   // ensure output dir
   ensureDir(OUT);
 
-  // Build nav HTML showing only top-level folders (and root)
+  // Build nav HTML showing only top-level folders (exclude Home which is used for root index)
   const topFolders = new Set();
   pages.forEach(p => {
-    if (!p.rel || p.rel === '.') return;
+    if (!p.rel || p.rel === '.' || p.rel === 'Home') return;
     const top = p.rel.split('/')[0];
     topFolders.add(top);
   });
