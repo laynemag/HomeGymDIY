@@ -239,7 +239,7 @@ function main() {
       .sort((a, b) => a.title.localeCompare(b.title));
     const listHtml = subpages.length ? '<ul>' + subpages.map(sp => `\n<li><a href="/${sp.url}">${sp.title}</a></li>`).join('') + '\n</ul>' : '<p>No projects found.</p>';
     const folderTitle = sanitizeTitle(f.replace(/[-_]/g, ' '));
-    const contentHtml = `<h1>${folderTitle}</h1>${introHtml}<h2>Projects</h2>${listHtml}`;
+    const contentHtml = `${introHtml}<h2>Projects</h2>${listHtml}`;
     const outFolderIndex = path.join(OUT, f, 'index.html');
     ensureDir(path.dirname(outFolderIndex));
     fs.writeFileSync(outFolderIndex, layout(folderTitle, navHtml, contentHtml), 'utf8');
