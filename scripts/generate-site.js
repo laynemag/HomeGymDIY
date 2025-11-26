@@ -57,6 +57,10 @@ function layout(title, navHtml, contentHtml) {
   body.dark-mode nav{background:#222;border-right-color:#333}
   main{flex:1;padding:28px;max-width:980px}
   body.dark-mode main{background:#1a1a1a}
+    a{color:#0066cc}
+    body.dark-mode a{color:#66b3ff}
+    a:hover{color:#0052a3}
+    body.dark-mode a:hover{color:#99ccff}
     .readme-content img{max-width:100%;height:auto}
     .readme-figure{margin:20px 0;text-align:center;border:1px solid #e5e7eb;border-radius:6px;padding:12px;background:#fafafa;display:flex;flex-direction:column;align-items:center}
     body.dark-mode .readme-figure{border-color:#333;background:#2a2a2a}
