@@ -1,10 +1,8 @@
 ---
 title: Misc
-nav_title: Miscellaneous
+nav_title: Miscellaneous Utilities
 nav_order: 4
 ---
-
-# Miscellaneous Utilities
 
 Custom utility accessories for home gym power racks.
 

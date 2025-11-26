@@ -4,6 +4,10 @@ nav_title: Handles
 nav_order: 1
 ---
 
+Custom DIY cable attachment handles for home gym setups.
+
+---
+
 # Tranman Cable Attachment Handles
 
 Custom DIY cable attachment handles for home gym setups.

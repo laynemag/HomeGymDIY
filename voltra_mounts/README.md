@@ -4,8 +4,6 @@ nav_title: Voltra Mounts
 nav_order: 2
 ---
 
-# Voltra Mounts
-
 Custom mounting solutions for Voltra cable attachments.
 
 ---
