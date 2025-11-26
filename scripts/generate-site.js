@@ -244,7 +244,7 @@ function main() {
     const label = (folderPage && (folderPage.meta && (folderPage.meta.nav_title || folderPage.meta.title))) || sanitizeTitle(f.replace(/[-_]/g, ' '));
     return `<li><a href="${BASE_URL}${f}/">${label}</a></li>`;
   })).join('\n');
-  const navItems2 = [`<li><a href="${BASE_URL}requests/">Requests</a></li>`].join('\n');
+  const navItems2 = [`<li><a href="${BASE_URL}requests/">Project Requests</a></li>`].join('\n');
   const navHtml = `<div class="nav-folder-heading">Sections</div><ul class="nav-list">${navItems}</ul><div class="nav-folder-heading">Community</div><ul class="nav-list">${navItems2}</ul>`;
 
   // create root index page (show repo README if present)
@@ -317,8 +317,8 @@ function main() {
   }
 
   // Generate requests page
-  const requestsContent = `<h1>Part Requests</h1>
-<p>Have an idea for a part? Submit a request below!</p>
+  const requestsContent = `<h1>Project Requests</h1>
+<p>Have an idea for a project? Submit a request below!</p>
 <div style="background:#f0f9ff;border:1px solid #bfdbfe;border-radius:8px;padding:20px;margin:24px 0">
   <h2>Submit a Request</h2>
   <form id="request-form">
