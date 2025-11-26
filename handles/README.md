@@ -8,11 +8,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 ---
 
-# Tranman Cable Attachment Handles
-
-Custom DIY cable attachment handles for home gym setups.
-
-## Open D Handles
+## Tranman Open D Handles
 
 ![Open D Handle](tranman/open-d-handle.png)
 
@@ -46,7 +42,7 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 ---
 
-## Closed D Handles
+## Tranman Closed D Handles
 
 ![Closed D Handle](tranman/closed-d-handle.png)
 

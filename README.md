@@ -5,6 +5,8 @@ nav_title: Home
 
 Repository for DIY home gym projects and information
 
+---
+
 ## Requests
 
 Need a custom metal bracket, 3D printed accessory, or other part? You can submit a request even if you are brand new to GitHub:
