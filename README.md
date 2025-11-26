@@ -1,3 +1,8 @@
+---
+title: Home
+nav_title: Home
+---
+
 Repository for DIY home gym projects and information
 
 ## Requests
