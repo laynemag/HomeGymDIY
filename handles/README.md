@@ -10,7 +10,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 - [Tranman Open D Handles](#tranman-open-d-handles)
 - [Tranman Closed D Handles](#tranman-closed-d-handles)
-- [Mech6 Multi-Grip Handles](#mech6-multi-grip-handles)
+- [Forza Handles (mech6)](#forza-handles-mech6)
 
 ---
 
@@ -77,8 +77,7 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 ---
 
-## Mech6 Multi-Grip Handles
-
+## Forza Handles (mech6)
 Pair of ergonomic multi-grip handles sized for custom cable machines. Includes separate STEP files for each side.
 ![Forza Upgrade Handles](mech6/forza-upgrade-parts.jpg)
 
