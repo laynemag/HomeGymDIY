@@ -44,25 +44,39 @@ function layout(title, navHtml, contentHtml) {
   <title>${title}</title>
   <style>
     body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;margin:0;padding:0;color:#111}
+    body.dark-mode{background:#1a1a1a;color:#e0e0e0}
     header{background:#0f172a;color:#fff;padding:16px 20px;position:sticky;top:0;z-index:100}
+    body.dark-mode header{background:#000}
     a.logo{color:#fff;text-decoration:none;font-weight:700}
+    .theme-toggle{background:none;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:8px 12px;border-radius:4px;cursor:pointer;font-size:14px;transition:all 0.2s}
+    .theme-toggle:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.6)}
   .wrap{display:flex;gap:20px}
+  body.dark-mode .wrap{background:#1a1a1a}
   /* make the sidebar wider and sticky so navigation is prominent */
   nav{width:320px;background:#f8fafc;padding:22px;border-right:1px solid #e6eef6;height:calc(100vh - 64px);box-sizing:border-box;overflow:auto;position:sticky;top:64px}
+  body.dark-mode nav{background:#222;border-right-color:#333}
   main{flex:1;padding:28px;max-width:980px}
+  body.dark-mode main{background:#1a1a1a}
     .readme-content img{max-width:100%;height:auto}
     .readme-figure{margin:20px 0;text-align:center;border:1px solid #e5e7eb;border-radius:6px;padding:12px;background:#fafafa;display:flex;flex-direction:column;align-items:center}
+    body.dark-mode .readme-figure{border-color:#333;background:#2a2a2a}
     .readme-figure img{display:block;width:100%;max-width:600px;max-height:600px;height:auto;margin:0 auto 8px;border-radius:4px;object-fit:contain}
     .readme-figure figcaption{font-size:13px;color:#666;font-style:italic;margin:8px 0 0 0;word-wrap:break-word}
+    body.dark-mode .readme-figure figcaption{color:#aaa}
   .nav-list{list-style:none;padding:0;margin:0;padding-left:14px}
   .nav-list li{margin:8px 0}
   /* make links in the sidebar larger and bolder for prominence */
   .nav-list a{color:#0f172a;text-decoration:none;font-size:16px;font-weight:600;display:block;padding:6px 4px;border-radius:4px}
+  body.dark-mode .nav-list a{color:#e0e0e0}
   .nav-list a:hover{background:#eef6ff;color:#0b2b4a;text-decoration:none}
+  body.dark-mode .nav-list a:hover{background:#333;color:#fff}
   .nav-list a.active{font-weight:700;color:#0b2b4a;background:#e6f0ff}
+  body.dark-mode .nav-list a.active{color:#fff;background:#0f172a}
   .nav-folder-heading{margin-top:18px;margin-bottom:8px;font-size:18px;font-weight:800;color:#0b2b4a;letter-spacing:0.4px}
+  body.dark-mode .nav-folder-heading{color:#fff}
   .nav-folder-heading:first-child{margin-top:0}
     footer{padding:14px 20px;font-size:13px;color:#6b7280}
+    body.dark-mode footer{color:#999}
     @media (max-width:900px){nav{position:static;width:100%;height:auto;border-right:none} .wrap{flex-direction:column}}
   </style>
 </head>
@@ -70,7 +84,7 @@ function layout(title, navHtml, contentHtml) {
   <header>
     <div style="display:flex;align-items:center;justify-content:space-between">
       <a class="logo" href="/">HomeGymDIY</a>
-      <div style="font-size:13px;opacity:0.9">Generated site</div>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">🌙</button>
     </div>
   </header>
   <div class="wrap">
@@ -84,6 +98,22 @@ function layout(title, navHtml, contentHtml) {
   <footer>
     Generated from repository README files.
   </footer>
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark-mode');
+      themeToggle.textContent = '☀️';
+    }
+    
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      const isDark = document.body.classList.contains('dark-mode');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      themeToggle.textContent = isDark ? '☀️' : '🌙';
+    });
+  </script>
 </body>
 </html>`;
 }
