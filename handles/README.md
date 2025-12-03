@@ -114,6 +114,5 @@ Knurled handles designed for cable machine attachments with ergonomic grip. Woul
 
 ### 📁 Files
 
-- [Trak Kaz Handles test](sinix/Trak%20Kaz%20handles%20test.step)
-- [Trak Kaz Handles test 2](sinix/Trak%20Kaz%20Handles%20test%202.step)
+- [Trak Kaz Handles](sinix/Trak-Kaz-handles.stl)
 
