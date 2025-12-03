@@ -121,6 +121,25 @@
       ]
     },
     {
+      "id": "sinix-trak-kaz-knurled",
+      "name": "Trak Kaz Knurled Handle",
+      "category": "Handles",
+      "creator": "sinix",
+      "difficulty": "Easy",
+      "material": "3D Printed (TPU/PETG/PLA)",
+      "cost": 5,
+      "notes": "Knurled handles designed for cable machine attachments with ergonomic grip. Recommended to print in TPU for rubber feel, but PETG/PLA also work.",
+      "parts": [
+        {
+          "name": "TPU/PETG/PLA Filament",
+          "qty": 1,
+          "source": "Self-print",
+          "url": "",
+          "estimatedCost": 5
+        }
+      ]
+    },
+    {
       "id": "tranman-voltra-mount",
       "name": "Tranman Low Profile Fixed Mount",
       "category": "Voltra Mounts",

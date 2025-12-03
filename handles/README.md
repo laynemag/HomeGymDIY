@@ -11,6 +11,7 @@ Custom DIY cable attachment handles for home gym setups.
 - [Tranman Open D Handles](#tranman-open-d-handles)
 - [Tranman Closed D Handles](#tranman-closed-d-handles)
 - [Forza Handles (mech6)](#forza-handles-mech6)
+- [Trak Kaz Knurled Handle (sinix)](#trak-kaz-knurled-handle-sinix)
 
 ---
 
@@ -102,4 +103,17 @@ Pair of ergonomic multi-grip handles sized for custom cable machines. Includes s
   - https://www.mcmaster.com/catalog/131/3736/93441A441
   - https://www.mcmaster.com/products/98002a301/
   - https://www.mcmaster.com/products/3583t11/
+
+---
+
+## Trak Kaz Knurled Handle (sinix)
+
+Knurled handles designed for cable machine attachments with ergonomic grip. Would recommend printing in TPU to keep the rubber feel, however PETG/PLA will work too.
+
+![Trak Kaz Knurled Handle](sinix/trak-handle-kaz-knurl.webp)
+
+### 📁 Files
+
+- [Trak Kaz Handles test](sinix/Trak%20Kaz%20handles%20test.step)
+- [Trak Kaz Handles test 2](sinix/Trak%20Kaz%20Handles%20test%202.step)
 
