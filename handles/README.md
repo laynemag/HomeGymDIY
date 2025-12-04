@@ -17,10 +17,13 @@ Custom DIY cable attachment handles for home gym setups.
 ## Tranman Open D Handles
 
 ![Open D Handle](tranman/open-d-handle.png)
+![Open Handle + Screw Cover](tranman/open-handle-with-endcap.webp)
 
 ### 📁 Files
 
 - [Open Handle CAD file](tranman/scs%20d%20handle.step)
+- [Handle Screw Cover: 28.5](tranman/Screw%20Cover%20-%2028.5MM.3mf)
+- [Handle Screw Cover: 32](tranman/D%20Handle%20Screw%20Cover%20(32MM).3mf)
 
 ### 🔧 Materials & Specifications
 
