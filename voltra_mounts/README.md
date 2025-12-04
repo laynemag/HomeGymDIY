@@ -8,9 +8,28 @@ Custom mounting solutions for Voltra cable attachments.
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Tranman – Low Profile Fixed Mount](#tranman--low-profile-fixed-mount)
+  - [📁 Files](#-files)
+  - [🔧 Specifications](#-specifications)
+  - [💰 Cost Reference](#-cost-reference)
+  - [⚠️ Notes](#️-notes)
+  - [📝 Credits](#-credits)
 - [wamoore911 – Belt Squat Stand Mount](#wamoore911--belt-squat-stand-mount)
+  - [📁 Files](#-files-1)
+  - [🔧 Specifications](#-specifications-1)
+  - [💡 Build Notes](#-build-notes)
+  - [📝 Credits](#-credits-1)
 - [Dr Tatty Waffles – Triple Voltra Bracket](#dr-tatty-waffles--triple-voltra-bracket)
+  - [📁 Files](#-files-2)
+  - [📝 Notes](#-notes)
+  - [📝 Credits](#-credits-2)
+- [Rya– Fixed Voltra Mount](#rya-fixed-voltra-mount)
+  - [📁 Files](#-files-3)
+  - [🔧 Specifications](#-specifications-2)
+  - [💰 Cost Reference](#-cost-reference-1)
+  - [📝 Notes](#-notes-1)
+  - [📝 Credits](#-credits-3)
 
 ---
 
@@ -89,3 +108,32 @@ Design by wamoore911
 ### 📝 Credits
 
 Design by Dr Tatty Waffles
+
+---
+
+## Ryan – Fixed Voltra Mount
+![voltra fixed mount](markofzen/voltra_mount_5_hole_bolted.webp)
+![Ryan Fixed Voltra Mount](markofzen/voltra_mount_standard_5_holes.step)
+
+### 📁 Files
+
+- [Fixed mount STEP](markofzen/voltra_mount_standard_5_holes.step)
+
+### 🔧 Specifications
+
+- 4.8 mm steel plate (0.189")
+- All bends: 50° angles
+
+### 💰 Cost Reference
+
+- SendCutSend quote: $77.75 for two including bending + shipping
+
+### 📝 Notes
+
+- Raised mount location to allow multiple mounting configurations
+- When ordering from SendCutSend, specify 50° for all bends
+- Might be able to use thinner metal than 4.8 mm
+
+### 📝 Credits
+
+Design by Ryan (markofzen)

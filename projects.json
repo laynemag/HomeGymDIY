@@ -206,6 +206,25 @@
       ]
     },
     {
+      "id": "markofzen-voltra-mount",
+      "name": "Ryan's Fixed Voltra Mount",
+      "category": "Voltra Mounts",
+      "creator": "Ryan (markofzen)",
+      "difficulty": "Medium",
+      "material": "4.8mm Steel Plate",
+      "cost": 77.75,
+      "notes": "SendCutSend quote: $77.75 for two 4.8mm steel plate with 50° bends. Standard five-hole pattern for flexible mounting options.",
+      "parts": [
+        {
+          "name": "M5 x 0.8 Countersunk Hex Bolts",
+          "qty": 5,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 10
+        }
+      ]
+    },
+    {
       "id": "chaisewhiz-magstrap",
       "name": "Chaisewhiz MagStrap Safety System",
       "category": "Rack Attachments",
