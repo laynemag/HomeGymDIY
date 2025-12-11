@@ -6,16 +6,6 @@ nav_order: 4
 
 Custom utility accessories for racks, benches, and cable systems.
 
-## Table of Contents
-
-- [Mech6 – Larger Sundial for Prime Stability Arm](#mech6---larger-sundial-for-prime-stability-arm)
-- [Ryan – Power Rack Utility Hook](#ryan--power-rack-utility-hook)
-- [Ryan – Iron Master Super Bench Pro v2 Stand](#ryan--iron-master-super-bench-pro-v2-stand)
-- [Ryan – Replacement Pads for Darko Barbell Anchor](#ryan--replacement-pads-for-darko-barbell-anchor)
-- [Ryan – Replacement Pads for Darko Thresher Pad](#ryan--replacement-pads-for-darko-thresher-pad)
-- [Ryan – Titan Roller J-Cup Protectors](#ryan--titan-roller-j-cup-protectors)
-- [Ryan – Rogue Monster Safety Spotter Lip Protector](#ryan--rogue-monster-safety-spotter-lip-protector)
-
 ---
 
 ## Mech6 - Larger Sundial for Prime Stability Arm
@@ -35,6 +25,31 @@ Larger Sundial for Prime Stability Arm by Mech6 (enables locking upright storage
 - Critical measurements: SendCutSend settings: .187" thick, deburring
 - Mounting or hardware details: Uses stock hardware from the original prime stability arm
 
+---
+
+## Sinix – Knurled Hex Nut for 1" Rack Bolts
+
+### 📁 Files
+- ![knurled-hex-nut](sinix/Knurled-Hex-Nut-36-v2.webp)
+- [Knurled hex nut STEP](sinix/Knurled-Hex-Nut-36-v2.step)
+
+### 🔧 Specifications
+
+- 3D printed knurled nut for 1" diameter rack bolts
+- Compatible with Rep Fitness and Rogue rack hardware
+- Knurled exterior for easy hand tightening without tools
+
+### 📝 Notes
+
+- Print in PETG or PLA for best rigidity
+- Knurled pattern provides grip for tool-free adjustment of accessories
+- Ideal for quick-adjust attachments on power racks
+
+### 📝 Credits
+
+Design by Sinix
+
+---
 
 ## Ryan – Power Rack Utility Hook
 
