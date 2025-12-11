@@ -277,6 +277,25 @@
       ]
     },
     {
+      "id": "sinix-knurled-nut",
+      "name": "Sinix Knurled Hex Nut for 1\" Rack Bolts",
+      "category": "Miscellaneous",
+      "creator": "Sinix",
+      "difficulty": "Easy",
+      "material": "3D Printed (PETG or PLA)",
+      "cost": 0,
+      "notes": "Knurled 3D printed nut for 1\" diameter rack bolts. Compatible with Rep Fitness and Rogue rack hardware.",
+      "parts": [
+        {
+          "name": "PETG or PLA filament",
+          "qty": 1,
+          "source": "Any",
+          "url": "",
+          "estimatedCost": 5
+        }
+      ]
+    },
+    {
       "id": "markofzen-utility-hook",
       "name": "Ryan's Power Rack Utility Hook",
       "category": "Miscellaneous",
