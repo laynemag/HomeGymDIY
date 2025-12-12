@@ -11,7 +11,7 @@ Custom mounting solutions for Voltra cable attachments.
 - [Tranman – Low Profile Fixed Mount](#tranman--low-profile-fixed-mount)
 - [wamoore911 – Belt Squat Stand Mount](#wamoore911--belt-squat-stand-mount)
 - [Dr Tatty Waffles – Triple Voltra Bracket](#dr-tatty-waffles--triple-voltra-bracket)
-- [Ryan – Fixed Voltra Mount](#rya-fixed-voltra-mount)
+- [Ryan – Fixed Voltra Mount](#ryan--fixed-voltra-mount)
 
 ---
 
