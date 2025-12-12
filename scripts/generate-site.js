@@ -3,10 +3,10 @@ const path = require('path');
 const { marked } = require('marked');
 const yaml = require('js-yaml');
 
-// Configure marked to disable deprecated features
+// Configure marked to enable header IDs for anchor links
 marked.setOptions({
   mangle: false,
-  headerIds: false
+  headerIds: true
 });
 
 // Config
