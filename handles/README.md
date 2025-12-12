@@ -22,7 +22,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 ### 📁 Files
 
-- [Open Handle CAD file](<tranman/Angled%20Open%20D%20Handle%20(Stainless)%20scs%20m10x1.5%20on%20.3939%20tap.step>)
+- [Open Handle CAD file](tranman/angledopendhandle.step)
 
 ### 🔧 Materials & Specifications
 
@@ -59,7 +59,6 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 - [Closed Handle CAD file](tranman/scs%20d%20handle.step)
 
-
 ### 🛒 Parts & Supplies
 
 - SCS should have two 90 degree bends:
@@ -80,6 +79,7 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 ---
 
 ## Forza Handles (mech6)
+
 Pair of ergonomic multi-grip handles sized for custom cable machines. Includes separate STEP files for each side.
 ![Forza Upgrade Handles](mech6/forza-upgrade-parts.jpg)
 
@@ -116,4 +116,3 @@ Knurled handles designed for cable machine attachments with ergonomic grip. Woul
 ### 📁 Files
 
 - [Trak Kaz Handles](sinix/Trak-Kaz-handles.stl)
-
