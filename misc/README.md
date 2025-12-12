@@ -4,111 +4,179 @@ nav_title: Miscellaneous Utilities
 nav_order: 4
 ---
 
-Custom utility accessories for home gym power racks.
+Custom utility accessories for racks, benches, and cable systems.
 
 ---
 
-## Ryan's Power Rack Utility Hook
+## Mech6 - Larger Sundial for Prime Stability Arm
+
+
+### 📁 Files
+
+- [Sundail upgrade](mech6/sundial%20188.STEP) — 4 mm stainless sheet
+
+### 📦 Part Overview
+Larger Sundial for Prime Stability Arm by Mech6 (enables locking upright storage)
+- ![Prime Fitness Stablity Pad Sundial Upgrade](./mech6/sundial-scs-cost-screenshot.png)
+
+
+### 🔧 Specifications
+
+- Critical measurements: SendCutSend settings: .187" thick, deburring
+- Mounting or hardware details: Uses stock hardware from the original prime stability arm
+
+---
+
+## Sinix – Knurled Hex Nut for 1" Rack Bolts
+
+### 📁 Files
+- ![knurled-hex-nut](sinix/Knurled-Hex-Nut-36-v2.webp)
+- [Knurled hex nut STEP](sinix/Knurled-Hex-Nut-36-v2.step)
+
+### 🔧 Specifications
+
+- 3D printed knurled nut for 1" diameter rack bolts
+- Compatible with Rep Fitness and Rogue rack hardware
+- Knurled exterior for easy hand tightening without tools
+
+### 📝 Notes
+
+- Print in PETG or PLA for best rigidity
+- Knurled pattern provides grip for tool-free adjustment of accessories
+- Ideal for quick-adjust attachments on power racks
+
+### 📝 Credits
+
+Design by Sinix
+
+---
+
+## Ryan – Power Rack Utility Hook
 
 ![Utility Hook](markofzen/utility-hook.png)
 
 ### 📁 Files
 
-- [Utility Hook DXF file](markofzen/hook-4-mm-thick.dxf) (4mm thick)
+- [Utility hook DXF](markofzen/hook-4-mm-thick.dxf) — 4 mm stainless sheet
 
 ### 🔧 Specifications
 
-- **Material:** Stainless Steel
-- **Thickness:** 4mm
+- 4 mm stainless steel (SendCutSend stainless recommended)
+- Designed for media tumble + optional powder coat
 
 ### 💰 Cost Reference
 
-- **SCS Manufacturing:** ~$30 + shipping for 12 hooks in stainless steel
+- ≈ $30 + shipping for twelve hooks in stainless via SendCutSend
+
+### 📝 Credits
+
+Design by Ryan (markofzen)
 
 ---
 
-## Ryan's Iron Master Super Bench Pro v2 Stand
+## Ryan – Iron Master Super Bench Pro v2 Stand
 
 ![Iron Master Stand](markofzen/ironmaster-stand.jpg)
 
 ### 📁 Files
 
-- [3D Print Model](https://makerworld.com/en/models/919545-iron-master-super-bench-pro-v2-kickstand) from Makerworld
+- [Makerworld print model](https://makerworld.com/en/models/919545-iron-master-super-bench-pro-v2-kickstand)
 
 ### 📝 Notes
 
-Custom kickstand for the Iron Master Super Bench Pro v2
+- Custom kickstand keeps the Super Bench upright when swapping pads
+- Print in high infill PETG or ABS for rigidity
+
+### 📝 Credits
+
+Design by Ryan (markofzen)
 
 ---
 
-## Replacement Pads for Darko Barbell Anchor
+## Ryan – Replacement Pads for Darko Barbell Anchor
 
 ![Darko Anchor Liner](markofzen/darko-anchor-liner.png)
 
 ### 📁 Files
 
-- [3D Print Model](https://makerworld.com/en/models/1290776-replacement-pads-for-darko-barbell-anchor) from Makerworld
+- [Makerworld print model](https://makerworld.com/en/models/1290776-replacement-pads-for-darko-barbell-anchor)
 
 ### 📝 Notes
 
-Replacement protective pads for the Darko Barbell Anchor
+- Drop-in pads prevent metal-on-metal contact inside the Darko anchor
+- Print with flexible TPU for additional grip or PETG for rigidity
+
+### 📝 Credits
+
+Design by Ryan (markofzen)
 
 ---
 
-## Replacement Pads for Darko Thresher Pad
+## Ryan – Replacement Pads for Darko Thresher Pad
 
 ![Darko Thresher Pad](markofzen/darko-threasher-pads.png)
 
 ### 📁 Files
 
-- [3D Print Model](https://makerworld.com/en/models/1921564-replacement-pads-for-darko-thresher-pad) from Makerworld
+- [Makerworld print model](https://makerworld.com/en/models/1921564-replacement-pads-for-darko-thresher-pad)
 
 ### 📝 Notes
 
-Replacement protective pads for the Darko Thresher
+- Protects the Thresher pad shell and improves bar grip
+- Print in TPU or PETG depending on desired feel
+
+### 📝 Credits
+
+Design by Ryan (markofzen)
 
 ---
 
-## Ryan's Titan Roller J-Cup Protectors
+## Ryan – Titan Roller J-Cup Protectors
 
-### Original Twist Lock J-Cups - Front Lip Protector
+Protective inserts for Titan Roller J-Cups to prevent barbell or cup damage.
+
+### Original Twist-Lock Front Lip
 
 ![Titan Twist Lock Front Lip](markofzen/titan-roller-twist-lock-front-lip.jpg)
 
-#### 📁 Files
+- [Makerworld print model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-697722)
 
-- [3D Print Model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-697722) from Makerworld
-
-### New Pop Pin Lock J-Cups - Front Lip Protector
+### Pop-Pin Front Lip
 
 ![Titan Pop Pin Front Lip](markofzen/titan-roller-pop-pin-front-lip.jpg)
 
-#### 📁 Files
+- [Makerworld print model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-1661999)
 
-- [3D Print Model](https://makerworld.com/en/models/762864-titan-roller-j-cup-lip-protector#profileId-1661999) from Makerworld
-
-### Ryan's J-Cup Back Protector
+### Back Protector
 
 ![Titan J-Cup Back Protection](markofzen/titan-roller-jcup-back-protection.jpg)
 
-#### 📁 Files
-
-- [3D Print Model](https://makerworld.com/en/models/860577-titan-roller-j-cup-back-protector#profileId-1661765) from Makerworld
+- [Makerworld print model](https://makerworld.com/en/models/860577-titan-roller-j-cup-back-protector#profileId-1661765)
 
 ### 📝 Notes
 
-Protective inserts for Titan Roller J-Cups to prevent damage to bars and the J-cup surfaces
+- Print in PETG or nylon for durability; add TPU pads where you want extra grip
+- Optional countersunk screws secure the protectors if you expect heavy impacts
+
+### 📝 Credits
+
+Designs by Ryan (markofzen)
 
 ---
 
-## Ryan's Rogue Monster Safety Spotter Lip Protector
+## Ryan – Rogue Monster Safety Spotter Lip Protector
 
 ![Rogue Monster 2.0 Lip Protector](markofzen/rogue-monster-2.0-lip-protector.png)
 
 ### 📁 Files
 
-- [3D Print Model](https://makerworld.com/en/models/780544-rogue-monster-safety-spotter-arm-20-lip-protector#profileId-724695) from Makerworld
+- [Makerworld print model](https://makerworld.com/en/models/780544-rogue-monster-safety-spotter-arm-20-lip-protector#profileId-724695)
 
 ### 📝 Notes
 
-Protective insert for Rogue Monster Safety Spotter Arms 2.0 to prevent damage to bars and spotter arm surfaces
+- Slide-on protector prevents bar knurling damage when dumping onto Monster 2.0 spotter arms
+- Print with >30% infill PETG or ABS for impact resistance
+
+### 📝 Credits
+
+Design by Ryan (markofzen)

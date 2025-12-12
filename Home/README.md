@@ -8,6 +8,15 @@ nav_order: 0
 
 A community-driven collection of open-source DIY home gym projects, designs, and tools. Browse projects, compare costs, build custom parts lists, and request custom fabrications—all in one place.
 
+## Table of Contents
+
+- [Explore Projects](#-explore-projects)
+- [Tools & Features](#-tools--features)
+- [How to Use This Site](#-how-to-use-this-site)
+- [How to Get Parts Made](#-how-to-get-parts-made)
+- [Contributing](#-contributing)
+- [Dark Mode](#-dark-mode)
+
 ---
 
 ## 🔍 Explore Projects
