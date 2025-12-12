@@ -22,7 +22,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 ### 📁 Files
 
-- [Open Handle CAD file](tranman/angledopendhandle.step)
+- [Open Handle CAD file](tranman/Angled%20Open%20D%20Handle.step)
 
 ### 🔧 Materials & Specifications
 
