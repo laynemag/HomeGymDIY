@@ -78,9 +78,9 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 ---
 
-## Forza Handles (mech6)
+## Custom Grommets for Gymnastics Forza Iron Cross Handles (mech6)
 
-Pair of ergonomic multi-grip handles sized for custom cable machines. Includes separate STEP files for each side.
+Custom 3D printed grommets to protect the aluminum attachment holes on your [gymnastics forza iron cross handles](https://store.gymnasticsforza.com/products/gymnastics-forza-iron-cross-system).  One smaller version provides coverage for one attachment hole on the handle, the other provides coverage for all attachment holes (excluding the holes that are covered by the bolts that hold the grommets in place).  
 ![Forza Upgrade Handles](mech6/forza-upgrade-parts.jpg)
 
 ### 📁 Files
@@ -90,16 +90,13 @@ Pair of ergonomic multi-grip handles sized for custom cable machines. Includes s
 
 ### 🔧 Specifications
 
-- Designed for laser cutting from 0.187"–0.250" steel or stainless; confirm exact thickness from the STEP before ordering
-- Add tumble/deburr plus powder coat or Cerakote for grip comfort
-- Tapping/hardware requirements are called out in the CAD; size holes to match your preferred swivel hooks or carabiners
-- Recommend using PETG for 3D printing, **Need 4 total printed, two each handle**
+- Designed for 3D printing; confirm exact thickness from the STEP before ordering/printing
+- You may update the size holes in the STEP files to match your preferred swivel hooks or carabiners
+- Recommend using PETG for 3D printing, **Need 4 total printed, two each handle** (print 4 of the larger STEP *OR* 4 of the smaller STEP file)
 
 ### 📝 Notes
 
-- Two STEP files mirror each other so you can build left/right handles
-- Consider pairing with Prime-style rubber grips or powder-coated steel tubes for the palm surface
-- If cutting through SendCutSend, include bend/tap services only if you update the STEP to match their specs; current files are flat patterns
+- Two STEP files are available, depending on whether you plan to utilize/protect one or all attachment holes
 - ![McMaster Carr Hardware](mech6/mcmastercarr-hardware-forza-hanldes.jpg)
   - https://www.mcmaster.com/catalog/131/3736/93441A441
   - https://www.mcmaster.com/products/98002a301/
