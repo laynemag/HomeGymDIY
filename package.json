@@ -1,0 +1,18 @@
+{
+  "name": "homegymdiy-site-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate a lightweight static site from README.md files for GitHub Pages",
+  "scripts": {
+    "build-site": "node ./scripts/generate-site.js",
+    "clean-site": "node -e \"require('fs').rmSync('./docs', { recursive: true, force: true }); console.log('docs/ removed')\"",
+    "dev": "npm run clean-site && npm run build-site && npx http-server docs -p 8080 -c-1"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

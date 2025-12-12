@@ -1,32 +1,67 @@
-# HomeGymHacks
-Repository for DIY home gym projects and information
+# HomeGymDIY
 
-## Requests
-Need a custom metal bracket, 3D printed accessory, or other part? You can submit a request even if you are brand new to GitHub:
+Community-built catalog of DIY attachments, rack accessories, and fabrication notes for home gym lifters.
 
-1. [Create a free GitHub account](https://github.com/signup) if you do not already have one.
-2. Click **Issues** ▸ **New issue** ▸ choose **Part Request**.
-3. Fill in the short form (what the part does, material, dimensions, mounting hardware, reference links/photos, and how to contact you). Drag-and-drop images or sketches directly into the issue.
-4. Submit the issue. You can edit it later if you remember more details.
+## Table of Contents
 
-Every request automatically gets a `request` label so we can track it. We will reply on the issue if we need clarification or to share progress.
+- [Browse the Site](#-browse-the-site)
+- [Request a Part](#-request-a-part)
+- [Repository & Site Structure](#-repository--site-structure)
+- [Fabrication Services](#-fabrication-services)
+- [Contribution Guidelines](#-contribution-guidelines)
 
-## Project Organziation
-Folders will be organized into general more generalized parts, and will have their own README.md files with specific details.
+## 🌐 Browse the Site
 
-## Getting Your Custom Stuff Made
-The most common service used has been Send Cut Send, however Oshcut and many others might be cheaper or offer more specialized services like bending close to holes, etc.
+Prefer a friendlier UI? Visit **[laynemag.github.io/HomeGymDIY](https://laynemag.github.io/HomeGymDIY/)** to search, filter, preview images, and download files. The site is generated directly from the README files in this repo, so keeping them tidy keeps the website accurate.
 
-# Repo Contents
-### [Voltra Mounts](voltra_mounts/)
-### [Handles](handles/)
-### [Misc](misc/)
+---
 
-# Contribution Guidelines
-Contributions are welcomed, but make sure to follow the contributing guidelines here:
-1. Give credit to the original creator
-2. Update or create a new folder, update folder README.md file with creator, pricing, and real world images with the creation in use.
-   1. Add SCS details about tapping, material thickness, and relavent details to have the item made
-   2. Upload relevant files into new folder like .step, .dxf, or .stl so other members can use your part
-3. Keep the formatting of the README.md
-4. Follow the same rules as the HomeGymDiscord
+## 📋 Request a Part
+
+Need a custom bracket, pulley mount, or printed accessory?
+
+1. [Create a GitHub account](https://github.com/signup) if you do not already have one.
+2. Open the **[Issues](https://github.com/laynemag/HomeGymDIY/issues)** tab and click **New issue** → **Part Request**.
+3. Fill out the template (function, materials, dimensions, mounting method, reference photos/links, contact info) and drag in any sketches.
+4. Submit. We will continue the conversation in the issue thread, and the request is auto-labeled `request` for tracking.
+
+---
+
+## 📁 Repository & Site Structure
+
+| Folder | Description | Site Nav |
+| --- | --- | --- |
+| `Home/` | Landing page content, site overview, tools | nav order 0 |
+| `handles/` | Cable attachment handles, grips, pull-down accessories | nav order 1 |
+| `voltra_mounts/` | Voltra mounting plates, belt squat bases, pulley brackets | nav order 2 |
+| `rack_attachments/` | MagStrap upgrades, shelves, storage hooks | nav order 3 |
+| `misc/` | Utility hooks, bench add-ons, 3D printed protectors | nav order 4 |
+
+Each folder README begins with YAML front matter (title, nav_title, nav_order) so the generator can build the sidebar. Keep creator names at the beginning of project titles and follow the shared section order (Images → Files → Specs → Notes → Credits) for consistent rendering.
+
+---
+
+## 🏭 Fabrication Services
+
+Most metal projects are cut through **SendCutSend** with bending, tapping, and powder-coating options. Some designs note **Oshcut** or local fab shops when tighter bends near holes or specialty materials are needed. Always capture:
+
+- Material grade/thickness and finish
+- Hole diameters, spacing, and tolerances
+- Tapping/countersink or hardware requirements
+- Bend radii and clearance notes
+- Quote screenshots (tracked in `SCS_SCREENSHOTS_NEEDED.md`) when possible
+
+3D printed parts should include filament type, infill, and hardware where applicable.
+
+---
+
+## 🤝 Contribution Guidelines
+
+1. **Credit the creator** in the title and dedicated credits subsection.
+2. **Document fabrication details** (material, thickness, bends/taps, finish, hardware sourcing, cost references).
+3. **Commit all source files** (.STEP, .DXF, .STL/.3MF, Fusion archives, BOM spreadsheets, etc.).
+4. **Update `projects.json`** when a project should appear in the cost table or BOM builder (see `README_SITE.md` and `PROJECTS_README.md`).
+5. **Run `npm run build-site`** (or `npm run dev`) to verify the site before opening a pull request; check the published site after merge.
+6. **Follow HomeGym Discord safety rules**—document load limits, prototype status, and any risks.
+
+Thanks for helping fellow lifters build better gear!
