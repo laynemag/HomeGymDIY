@@ -14,7 +14,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 ### 📁 Files
 
-- [Open Handle CAD file](tranman/scs%20d%20handle.step)
+- [Open Handle CAD file](<tranman/Angled%20Open%20D%20Handle%20(Stainless)%20scs%20m10x1.5%20on%20.3939%20tap.step>)
 
 ### 🔧 Materials & Specifications
 
