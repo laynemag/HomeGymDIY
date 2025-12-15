@@ -12,6 +12,7 @@ Custom DIY cable attachment handles for home gym setups.
 - [Tranman Closed D Handles](#tranman-closed-d-handles)
 - [Forza Handles (mech6)](#forza-handles-mech6)
 - [Trak Kaz Knurled Handle (sinix)](#trak-kaz-knurled-handle-sinix)
+- [VTS Custom Rotating Handles (spohc)](#vts-custom-rotating-handles-spohc)
 
 ---
 
@@ -80,7 +81,7 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 ## Custom Grommets for Gymnastics Forza Iron Cross Handles (mech6)
 
-Custom 3D printed grommets to protect the aluminum attachment holes on your [gymnastics forza iron cross handles](https://store.gymnasticsforza.com/products/gymnastics-forza-iron-cross-system).  One smaller version provides coverage for one attachment hole on the handle, the other provides coverage for all attachment holes (excluding the holes that are covered by the bolts that hold the grommets in place).  
+Custom 3D printed grommets to protect the aluminum attachment holes on your [gymnastics forza iron cross handles](https://store.gymnasticsforza.com/products/gymnastics-forza-iron-cross-system).  One smaller version provides coverage for one attachment hole on the handle, the other provides coverage for all attachment holes (excluding the holes that are covered by the bolts that hold the grommets in place).
 ![Forza Upgrade Handles](mech6/forza-upgrade-parts.jpg)
 
 ### 📁 Files
@@ -113,3 +114,40 @@ Knurled handles designed for cable machine attachments with ergonomic grip. Woul
 ### 📁 Files
 
 - [Trak Kaz Handles](sinix/Trak-Kaz-handles.stl)
+
+
+## VTS Custom Rotating Handles (spohc)
+
+![vts-rep-handle](spohc/VTS-rep-trap-handles.png)
+
+### 📁 Files
+
+- No special files needed as these are built with off-the-shelf parts.
+
+### 📝 Description
+
+These custom rotating handles are built using parts from Rep Fitness Open Trap Bar handles and other standard gym hardware. The concept relies on the fact that many knurled handles (Rorman Strength Megalith, Rep Fitness Open Trap Bar, WM Fabs Mo Row, Giant Lifting) use the same M10-1.5 bolt size and thread pitch.
+
+### 🛒 Parts & Supplies
+
+#### Handles & Brackets
+
+- [Rep Fitness Open Trap Bar Handles](https://repfitness.com/products/open-trap-bar-handles?variant=42225145643166)
+  - *Note:* Be careful when removing the bolts as they can strip easily. This set provides 3 pairs of handles to tinker with. The center bracket is the key component.
+
+#### Mounting Hardware
+
+- **Band Pegs:** 1" band peg required.
+  - [Rogue Monster Band Pegs 2.0](https://www.roguefitness.com/monster-band-pegs-2-0-4-pack) (Recommended for flush fit)
+  - Oak Club band pegs also work.
+  - *Alternative:* [Amazon Band Pegs](https://a.co/d/iRFunIt) (Check dimensions)
+- **Collars:** Standard size weight collar to fasten the bracket.
+  - [Example Collar](https://a.co/d/ddiLgF9)
+- **Rotation:** Needle bearing washers are needed if you want the handles to rotate smoothly.
+  - [Needle Bearing Washers](https://a.co/d/1qIFRCS)
+
+### 💡 Tips
+
+- You can save money by buying one of the other trap bar handle variants if you don't need the thick grips.
+- Fringe Sport used to sell cheaper band pegs, but availability varies.
+- A long enough bolt or rod could also work in place of a band peg.
