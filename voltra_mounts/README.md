@@ -8,10 +8,32 @@ Custom mounting solutions for Voltra cable attachments.
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Tranman – Low Profile Fixed Mount](#tranman--low-profile-fixed-mount)
+  - [📁 Files](#-files)
+  - [🔧 Specifications](#-specifications)
+  - [💰 Cost Reference](#-cost-reference)
+  - [⚠️ Notes](#️-notes)
+  - [📝 Credits](#-credits)
 - [wamoore911 – Belt Squat Stand Mount](#wamoore911--belt-squat-stand-mount)
+  - [📁 Files](#-files-1)
+  - [🔧 Specifications](#-specifications-1)
+  - [💡 Build Notes](#-build-notes)
+  - [📝 Credits](#-credits-1)
 - [Dr Tatty Waffles – Triple Voltra Bracket](#dr-tatty-waffles--triple-voltra-bracket)
+  - [📁 Files](#-files-2)
+  - [📝 Notes](#-notes)
+  - [📝 Credits](#-credits-2)
 - [Ryan – Fixed Voltra Mount](#ryan--fixed-voltra-mount)
+  - [📁 Files](#-files-3)
+  - [🔧 Specifications](#-specifications-2)
+  - [💰 Cost Reference](#-cost-reference-1)
+  - [📝 Notes](#-notes-1)
+  - [📝 Credits](#-credits-3)
+- [Salt - SquatMax Voltra Mount](#salt---squatmax-voltra-mount)
+  - [📁 Files](#-files-4)
+  - [🔧 Specifications](#-specifications-3)
+  - [📝 Credits](#-credits-4)
 
 ---
 
@@ -86,6 +108,7 @@ Design by wamoore911
 
 - Holds three Voltra units simultaneously for fast attachment swaps
 - Ideal for pairing high/low pulleys with a central neutral handle
+- 4.7 mm stainless steel
 
 ### 📝 Credits
 
@@ -119,3 +142,21 @@ Design by Dr Tatty Waffles
 ### 📝 Credits
 
 Design by Ryan (markofzen)
+
+---
+
+## Salt - SquatMax Voltra Mount
+
+![Salt SquatMax Voltra Mount](Salt/3d-printed-pic.webp)
+
+### 📁 Files
+
+- [Squatmax-Mount STEP](Salt/Salt%20mount%20Vertical.step)
+
+### 🔧 Specifications
+
+- SendCutSend requires 1/4" thickness
+
+### 📝 Credits
+
+Design by Salt
