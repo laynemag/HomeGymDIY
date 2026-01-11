@@ -244,6 +244,25 @@
       ]
     },
     {
+      "id": "salt-squatmax-mount",
+      "name": "Salt SquatMax Voltra Mount",
+      "category": "Voltra Mounts",
+      "creator": "Salt",
+      "difficulty": "Medium",
+      "material": "1/4\" Steel Plate",
+      "cost": 0,
+      "notes": "SendCutSend requires 1/4\" thickness.",
+      "parts": [
+        {
+          "name": "SendCutSend 1/4\" Steel Plate",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 0
+        }
+      ]
+    },
+    {
       "id": "chaisewhiz-magstrap",
       "name": "Chaisewhiz MagStrap Safety System",
       "category": "Rack Attachments",
