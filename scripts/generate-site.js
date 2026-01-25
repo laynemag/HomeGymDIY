@@ -112,7 +112,7 @@ function layout(title, navHtml, contentHtml) {
 <body>
   <header>
     <div style="display:flex;align-items:center;justify-content:space-between">
-      <a class="logo" href="/">HomeGymDIY</a>
+      <a class="logo" href="${BASE_URL}">HomeGymDIY</a>
       <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">🌙</button>
     </div>
   </header>
