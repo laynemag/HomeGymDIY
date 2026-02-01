@@ -486,6 +486,46 @@
           "estimatedCost": 10
         }
       ]
+    },
+    {
+      "id": "ryan-carter-strap-mount",
+      "name": "Ryan & Carter - Bolt together strap Voltra mount",
+      "category": "Voltra Mounts",
+      "creator": "Ryan (markofzen) & Carter",
+      "difficulty": "Medium",
+      "material": "4.7 mm Steel Plate",
+      "cost": 0,
+      "notes": "4.7 mm steel plate, 10 mm bolts for each corner, M8 flange bolts for padding threaded to backplate.",
+      "parts": [
+        {
+          "name": "SCS metal plate",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 0
+        },
+        {
+          "name": "3D printed pad",
+          "qty": 1,
+          "source": "Self-print",
+          "url": "",
+          "estimatedCost": 0
+        },
+        {
+          "name": "10 mm bolts",
+          "qty": 4,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 0
+        },
+        {
+          "name": "M8 flange bolts (set, as required)",
+          "qty": 1,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 0
+        }
+      ]
     }
   ]
 }

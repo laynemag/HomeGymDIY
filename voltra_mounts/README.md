@@ -34,6 +34,10 @@ Custom mounting solutions for Voltra cable attachments.
   - [📁 Files](#-files-4)
   - [🔧 Specifications](#-specifications-3)
   - [📝 Credits](#-credits-4)
+- [Ryan \& Carter - Bolt together strap Voltra mount](#ryan--carter---bolt-together-strap-voltra-mount)
+  - [📁 Files](#-files-5)
+  - [🔧 Specifications](#-specifications-4)
+  - [📝 Credits](#-credits-5)
 
 ---
 
@@ -141,7 +145,7 @@ Design by Dr Tatty Waffles
 
 ### 📝 Credits
 
-Design by Ryan (markofzen)
+Design by Ryan
 
 ---
 
@@ -160,3 +164,22 @@ Design by Ryan (markofzen)
 ### 📝 Credits
 
 Design by Salt
+
+## Ryan & Carter - Bolt together strap Voltra mount
+
+![Bolt together strap Voltra mount](markofzen/carter-voltra-strap-mount-metal-v2.webp)
+
+### 📁 Files
+
+- [3D printed pad STEP](markofzen/voltra-strap-mount-3d%20printed-pad-v2.step)
+- [SendCutSend metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
+
+### 🔧 Specifications
+
+- 4.7 mm steel plate in SendCutSend (SCS) (Stainless is fine, but recommend tumble/deburring)
+- 10 mm bolts for each corner
+- M8 flange bolts for padding threaded to backplate
+
+### 📝 Credits
+
+Design by Ryan & Carter
