@@ -172,11 +172,11 @@ Design by Salt
 ### 📁 Files
 
 - [3D printed pad STEP](markofzen/voltra-strap-mount-3d%20printed-pad-v2.step)
-- [SCS metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
+- [SendCutSend metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
 
 ### 🔧 Specifications
 
-- 4.7 mm steel plate in SCS (Stainless is fine, but recommend tumble/deburring)
+- 4.7 mm steel plate in SendCutSend (SCS) (Stainless is fine, but recommend tumble/deburring)
 - 10 mm bolts for each corner
 - M8 flange bolts for padding threaded to backplate
 
