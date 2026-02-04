@@ -13,6 +13,7 @@ Custom DIY cable attachment handles for home gym setups.
 - [Forza Handles (mech6)](#forza-handles-mech6)
 - [Trak Kaz Knurled Handle (sinix)](#trak-kaz-knurled-handle-sinix)
 - [VTS Custom Rotating Handles (spohc)](#vts-custom-rotating-handles-spohc)
+- [Rogue V-Bar Wide 120° Bracket (jv)](#rogue-v-bar-wide-120-bracket-jv)
 
 ---
 
@@ -151,3 +152,31 @@ These custom rotating handles are built using parts from Rep Fitness Open Trap B
 - You can save money by buying one of the other trap bar handle variants if you don't need the thick grips.
 - Fringe Sport used to sell cheaper band pegs, but availability varies.
 - A long enough bolt or rod could also work in place of a band peg.
+
+---
+
+## Rogue V-Bar Wide 120° Bracket (jv)
+
+Replacement bracket for the [Rogue Rotating V-Grip Cable Attachment](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment) that moves the handles out wider and flattens the handle angle to 120° (from the stock 90°).
+
+![Wide 120° Bracket](jv/rogue_v_bar_wide_120_deg_bracket/wide_120_deg_bracket.jpg)
+![Wide 120° Bracket alternate view](jv/rogue_v_bar_wide_120_deg_bracket/wide_120_deg_bracket2.jpg)
+![Wide 120° Bracket vs Standard](jv/rogue_v_bar_wide_120_deg_bracket/wide_120_deg_bracket_vs_standard.jpg)
+![Wide 120° Bracket vs JD EZ Curl](jv/rogue_v_bar_wide_120_deg_bracket/wide_120_deg_bracket_vs_JD_EZ_curl.jpg)
+
+### 📁 Files
+
+- [Bracket STEP file](jv/rogue_v_bar_wide_120_deg_bracket/rogue_vbar_wide_120_bracket.step)
+
+### 🔧 Materials & Specifications
+
+- **Material:** 0.313" (5/16") Steel
+- **Fabrication:** [Oshcut](https://www.oshcut.com) — the STEP file's bend radius and k-factor match the [Oshcut material catalog](https://app.oshcut.com/catalog/sheet) specs for 0.313" A36 / A1011 HR steel
+- **Alternative:** Can be made in 1/4" steel via [SendCutSend](https://www.sendcutsend.com), but the bend radius and k-factor will not match their material specs and will be auto-adjusted
+- **Hardware:** 3/8" washer required to ensure full contact with the center bracket. If using 1/4" steel, the washer must be > 1/16" thick
+
+### 🛒 Parts & Supplies
+
+- [Rogue Rotating V-Grip Cable Attachment](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment) (donor attachment — bracket replaces the stock V bracket)
+- 2 x 5/16" steel bracket (from STEP)
+- 2 x [3/8" Washer](https://www.mcmaster.com/98026A113/) (example from McMaster-Carr)
