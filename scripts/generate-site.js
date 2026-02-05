@@ -3,10 +3,10 @@ const path = require('path');
 const { marked } = require('marked');
 const yaml = require('js-yaml');
 
-// Configure marked to disable deprecated features
+// Configure marked to enable header IDs for anchor links
 marked.setOptions({
   mangle: false,
-  headerIds: false
+  headerIds: true
 });
 
 // Config
@@ -112,7 +112,7 @@ function layout(title, navHtml, contentHtml) {
 <body>
   <header>
     <div style="display:flex;align-items:center;justify-content:space-between">
-      <a class="logo" href="/">HomeGymDIY</a>
+      <a class="logo" href="${BASE_URL}">HomeGymDIY</a>
       <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">🌙</button>
     </div>
   </header>

@@ -6,6 +6,18 @@ nav_order: 4
 
 Custom utility accessories for racks, benches, and cable systems.
 
+## Table of Contents
+
+- [Mech6 - Larger Sundial for Prime Stability Arm](#mech6---larger-sundial-for-prime-stability-arm)
+- [Sinix – Knurled Hex Nut for 1" Rack Bolts](#sinix--knurled-hex-nut-for-1-rack-bolts)
+- [Ryan – Power Rack Utility Hook](#ryan--power-rack-utility-hook)
+- [Ryan – Iron Master Super Bench Pro v2 Stand](#ryan--iron-master-super-bench-pro-v2-stand)
+- [Ryan – Replacement Pads for Darko Barbell Anchor](#ryan--replacement-pads-for-darko-barbell-anchor)
+- [Ryan – Replacement Pads for Darko Thresher Pad](#ryan--replacement-pads-for-darko-thresher-pad)
+- [Ryan – Titan Roller J-Cup Protectors](#ryan--titan-roller-j-cup-protectors)
+- [Ryan – Rogue Monster Safety Spotter Lip Protector](#ryan--rogue-monster-safety-spotter-lip-protector)
+- [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
+
 ---
 
 ## Mech6 - Larger Sundial for Prime Stability Arm
@@ -180,3 +192,16 @@ Designs by Ryan (markofzen)
 ### 📝 Credits
 
 Design by Ryan (markofzen)
+
+## Rogue Black Oxide Bolts (Anand)
+
+### 🛒 Parts & Supplies
+
+- **Black Oxide 2.5" Washer:** [Grainger Link](https://www.grainger.com/product/USS-Washer-Case-Hardened-22UE19)
+- **Black Oxide 1" Bolt:** [Grainger Link](https://www.grainger.com/product/Hex-Head-Cap-Screw-Steel-25CL18)
+- **Black Oxide 1.5" Nut:** [Grainger Link](https://www.grainger.com/product/Hex-Nut-Std-Hex-12P505)
+- **Black Oxide Locking Washer:** [Grainger Link](https://www.grainger.com/product/Split-Lock-Washer-Case-Hardened-22UH39?opr=PDPBRDSP&analytics=dsbrItems_22UE11)
+
+### 📝 Notes
+
+These links are for the black oxide versions of the hardware.

@@ -24,12 +24,20 @@ Custom mounting solutions for Voltra cable attachments.
   - [📁 Files](#-files-2)
   - [📝 Notes](#-notes)
   - [📝 Credits](#-credits-2)
-- [Rya– Fixed Voltra Mount](#rya-fixed-voltra-mount)
+- [Ryan – Fixed Voltra Mount](#ryan--fixed-voltra-mount)
   - [📁 Files](#-files-3)
   - [🔧 Specifications](#-specifications-2)
   - [💰 Cost Reference](#-cost-reference-1)
   - [📝 Notes](#-notes-1)
   - [📝 Credits](#-credits-3)
+- [Salt - SquatMax Voltra Mount](#salt---squatmax-voltra-mount)
+  - [📁 Files](#-files-4)
+  - [🔧 Specifications](#-specifications-3)
+  - [📝 Credits](#-credits-4)
+- [Ryan \& Carter - Bolt together strap Voltra mount](#ryan--carter---bolt-together-strap-voltra-mount)
+  - [📁 Files](#-files-5)
+  - [🔧 Specifications](#-specifications-4)
+  - [📝 Credits](#-credits-5)
 
 ---
 
@@ -104,6 +112,7 @@ Design by wamoore911
 
 - Holds three Voltra units simultaneously for fast attachment swaps
 - Ideal for pairing high/low pulleys with a central neutral handle
+- 4.7 mm stainless steel
 
 ### 📝 Credits
 
@@ -136,4 +145,41 @@ Design by Dr Tatty Waffles
 
 ### 📝 Credits
 
-Design by Ryan (markofzen)
+Design by Ryan
+
+---
+
+## Salt - SquatMax Voltra Mount
+
+![Salt SquatMax Voltra Mount](Salt/3d-printed-pic.webp)
+
+### 📁 Files
+
+- [Squatmax-Mount STEP](Salt/Salt%20mount%20Vertical.step)
+
+### 🔧 Specifications
+
+- SendCutSend requires 1/4" thickness
+
+### 📝 Credits
+
+Design by Salt
+
+## Ryan & Carter - Bolt together strap Voltra mount
+
+![Bolt together strap Voltra mount](markofzen/carter-voltra-strap-mount-metal-v2.webp)
+
+### 📁 Files
+
+- [3D printed pad STEP](markofzen/voltra-strap-mount-3d%20printed-pad-v2.step)
+- [SendCutSend metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
+
+### 🔧 Specifications
+
+- 4.7 mm steel plate in SendCutSend (SCS) (Stainless is fine, but recommend tumble/deburring)
+- 10 mm bolts for each corner
+- M8 flange bolts for padding threaded to backplate
+
+### 📝 Credits
+
+Design by Ryan & Carter

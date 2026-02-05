@@ -244,6 +244,25 @@
       ]
     },
     {
+      "id": "salt-squatmax-mount",
+      "name": "Salt SquatMax Voltra Mount",
+      "category": "Voltra Mounts",
+      "creator": "Salt",
+      "difficulty": "Medium",
+      "material": "1/4\" Steel Plate",
+      "cost": 0,
+      "notes": "SendCutSend requires 1/4\" thickness.",
+      "parts": [
+        {
+          "name": "SendCutSend 1/4\" Steel Plate",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 0
+        }
+      ]
+    },
+    {
       "id": "chaisewhiz-magstrap",
       "name": "Chaisewhiz MagStrap Safety System",
       "category": "Rack Attachments",
@@ -465,6 +484,79 @@
           "source": "Any",
           "url": "",
           "estimatedCost": 10
+        }
+      ]
+    },
+    {
+      "id": "ryan-carter-strap-mount",
+      "name": "Ryan & Carter - Bolt together strap Voltra mount",
+      "category": "Voltra Mounts",
+      "creator": "Ryan (markofzen) & Carter",
+      "difficulty": "Medium",
+      "material": "4.7 mm Steel Plate",
+      "cost": 0,
+      "notes": "4.7 mm steel plate, 10 mm bolts for each corner, M8 flange bolts for padding threaded to backplate.",
+      "parts": [
+        {
+          "name": "SCS metal plate",
+          "qty": 1,
+          "source": "SendCutSend",
+          "url": "https://www.sendcutsend.com",
+          "estimatedCost": 0
+        },
+        {
+          "name": "3D printed pad",
+          "qty": 1,
+          "source": "Self-print",
+          "url": "",
+          "estimatedCost": 0
+        },
+        {
+          "name": "10 mm bolts",
+          "qty": 4,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 0
+        },
+        {
+          "name": "M8 flange bolts (set, as required)",
+          "qty": 1,
+          "source": "Hardware Store",
+          "url": "",
+          "estimatedCost": 0
+        }
+      ]
+    },
+    {
+      "id": "jv-rogue-vbar-wide-120",
+      "name": "Rogue V-Bar Wide 120° Bracket",
+      "category": "Handles",
+      "creator": "jv",
+      "difficulty": "Easy",
+      "material": "5/16\" Steel",
+      "cost": 0,
+      "notes": "Replacement bracket for the Rogue Rotating V-Grip that widens the handles and flattens the angle to 120°. STEP file sized for 5/16\" steel per Oshcut specs. Can be made in 1/4\" via SendCutSend but bend radius will be auto-adjusted. Requires a 3/8\" washer to ensure full contact with the center bracket (> 1/16\" thick if using 1/4\" steel).",
+      "parts": [
+        {
+          "name": "Oshcut 5/16\" A36 HR steel bracket (from STEP)",
+          "qty": 2,
+          "source": "Oshcut",
+          "url": "https://www.oshcut.com",
+          "estimatedCost": 75
+        },
+        {
+          "name": "3/8\" Washer",
+          "qty": 2,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/98026A113/",
+          "estimatedCost": 5
+        },
+        {
+          "name": "Rogue Rotating V-Grip Cable Attachment",
+          "qty": 1,
+          "source": "Rogue Fitness",
+          "url": "https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment",
+          "estimatedCost": 95
         }
       ]
     }
