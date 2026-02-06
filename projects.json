@@ -535,7 +535,7 @@
       "difficulty": "Easy",
       "material": "5/16\" Steel",
       "cost": 0,
-      "notes": "Replacement bracket for the Rogue Rotating V-Grip that widens the handles and flattens the angle to 120°. STEP file sized for 5/16\" steel per Oshcut specs. Can be made in 1/4\" via SendCutSend but bend radius will be auto-adjusted. Requires a 3/8\" washer to ensure full contact with the center bracket (> 1/16\" thick if using 1/4\" steel).",
+      "notes": "Replacement bracket for the Rogue Rotating V-Grip that widens the handles and flattens the angle to 120°. Designed for 45mm Rogue H5 handles. STEP file sized for 5/16\" steel per Oshcut specs. Can be made in 1/4\" via SendCutSend but bend radius will be auto-adjusted. Requires a 3/8\" washer to ensure full contact with the center bracket (> 1/16\" thick if using 1/4\" steel). You can use the 32mm handles included with the V-Bar, but the bracket will be significantly wider.",
       "parts": [
         {
           "name": "Oshcut 5/16\" A36 HR steel bracket (from STEP)",
@@ -557,6 +557,21 @@
           "source": "Rogue Fitness",
           "url": "https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment",
           "estimatedCost": 95
+        },
+        {
+          "name": "Rogue H5 Multi-Grip Handles (45mm pair)",
+          "qty": 1,
+          "source": "Rogue Fitness",
+          "url": "https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles",
+          "estimatedCost": 55
+        },
+        {
+          "name": "3D printed 45mm flange (from STEP)",
+          "qty": 2,
+          "source": "Self-print or Xometry",
+          "url": "",
+          "estimatedCost": 5,
+          "notes": "Any 3D printer/material works; original ordered in black dyed nylon from Xometry"
         }
       ]
     }
