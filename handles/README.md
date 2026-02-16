@@ -167,6 +167,7 @@ Replacement bracket for the [Rogue Rotating V-Grip Cable Attachment](https://www
 ### 📁 Files
 
 - [Bracket STEP file](jv/rogue_v_bar_wide_120_deg_bracket/rogue_vbar_wide_120_bracket.step)
+- [45mm Handle Flange STEP file](jv/rogue_v_bar_wide_120_deg_bracket/45mm_flange.step) (3D printed — any material works; original ordered in black dyed nylon from Xometry)
 
 ### 🔧 Materials & Specifications
 
@@ -174,9 +175,12 @@ Replacement bracket for the [Rogue Rotating V-Grip Cable Attachment](https://www
 - **Fabrication:** [Oshcut](https://www.oshcut.com) — the STEP file's bend radius and k-factor match the [Oshcut material catalog](https://app.oshcut.com/catalog/sheet) specs for 0.313" A36 / A1011 HR steel
 - **Alternative:** Can be made in 1/4" steel via [SendCutSend](https://www.sendcutsend.com), but the bend radius and k-factor will not match their material specs and will be auto-adjusted
 - **Hardware:** 3/8" washer required to ensure full contact with the center bracket. If using 1/4" steel, the washer must be > 1/16" thick
+- **Handles:** Designed for 45mm diameter [Rogue H5 Multi-Grip Handles](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles). You can use the 32mm handles included with the V-Bar, but the bracket will be significantly wider if you go that route.
 
 ### 🛒 Parts & Supplies
 
 - [Rogue Rotating V-Grip Cable Attachment](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment) (donor attachment — bracket replaces the stock V bracket)
 - 2 x 5/16" steel bracket (from STEP)
 - 2 x [3/8" Washer](https://www.mcmaster.com/98026A113/) (example from McMaster-Carr)
+- 2 x [Rogue H5 Multi-Grip Handles (45mm)](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles) — $55
+- 2 x 3D printed 45mm flange (from STEP)
