@@ -30,10 +30,6 @@ Custom mounting solutions for Voltra cable attachments.
   - [💰 Cost Reference](#-cost-reference-1)
   - [📝 Notes](#-notes-1)
   - [📝 Credits](#-credits-3)
-- [Salt - SquatMax Voltra Mount](#salt---squatmax-voltra-mount)
-  - [📁 Files](#-files-4)
-  - [🔧 Specifications](#-specifications-3)
-  - [📝 Credits](#-credits-4)
 - [Ryan \& Carter - Bolt together strap Voltra mount](#ryan--carter---bolt-together-strap-voltra-mount)
   - [📁 Files](#-files-5)
   - [🔧 Specifications](#-specifications-4)
@@ -148,22 +144,6 @@ Design by Dr Tatty Waffles
 Design by Ryan
 
 ---
-
-## Salt - SquatMax Voltra Mount
-
-![Salt SquatMax Voltra Mount](Salt/3d-printed-pic.webp)
-
-### 📁 Files
-
-- [Squatmax-Mount STEP](Salt/Salt%20mount%20Vertical.step)
-
-### 🔧 Specifications
-
-- SendCutSend requires 1/4" thickness
-
-### 📝 Credits
-
-Design by Salt
 
 ## Ryan & Carter - Bolt together strap Voltra mount
 
