@@ -1,0 +1,20 @@
+name: Sync front-end-project with main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push main to front-end-project
+        run: git push origin HEAD:front-end-project
