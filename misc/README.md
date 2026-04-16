@@ -8,16 +8,55 @@ Custom utility accessories for racks, benches, and cable systems.
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Mech6 - Larger Sundial for Prime Stability Arm](#mech6---larger-sundial-for-prime-stability-arm)
+  - [📁 Files](#-files)
+  - [📦 Part Overview](#-part-overview)
+  - [🔧 Specifications](#-specifications)
 - [Sinix – Knurled Hex Nut for 1" Rack Bolts](#sinix--knurled-hex-nut-for-1-rack-bolts)
+  - [📁 Files](#-files-1)
+  - [🔧 Specifications](#-specifications-1)
+  - [📝 Notes](#-notes)
+  - [📝 Credits](#-credits)
 - [Ryan – Power Rack Utility Hook](#ryan--power-rack-utility-hook)
+  - [📁 Files](#-files-2)
+  - [🔧 Specifications](#-specifications-2)
+  - [💰 Cost Reference](#-cost-reference)
+  - [📝 Credits](#-credits-1)
 - [Ryan – Iron Master Super Bench Pro v2 Stand](#ryan--iron-master-super-bench-pro-v2-stand)
+  - [📁 Files](#-files-3)
+  - [📝 Notes](#-notes-1)
+  - [📝 Credits](#-credits-2)
 - [Ryan – Replacement Pads for Darko Barbell Anchor](#ryan--replacement-pads-for-darko-barbell-anchor)
+  - [📁 Files](#-files-4)
+  - [📝 Notes](#-notes-2)
+  - [📝 Credits](#-credits-3)
 - [Ryan – Replacement Pads for Darko Thresher Pad](#ryan--replacement-pads-for-darko-thresher-pad)
+  - [📁 Files](#-files-5)
+  - [📝 Notes](#-notes-3)
+  - [📝 Credits](#-credits-4)
 - [Ryan – Titan Roller J-Cup Protectors](#ryan--titan-roller-j-cup-protectors)
+  - [Original Twist-Lock Front Lip](#original-twist-lock-front-lip)
+  - [Pop-Pin Front Lip](#pop-pin-front-lip)
+  - [Back Protector](#back-protector)
+  - [📝 Notes](#-notes-4)
+  - [📝 Credits](#-credits-5)
 - [Ryan – Rogue Monster Safety Spotter Lip Protector](#ryan--rogue-monster-safety-spotter-lip-protector)
+  - [📁 Files](#-files-6)
+  - [📝 Notes](#-notes-5)
+  - [📝 Credits](#-credits-6)
 - [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
-- [JW – Spot Grips Reppin Mod Template](#JW--spot-grips-reppin-mod-template)
+  - [🛒 Parts \& Supplies](#-parts--supplies)
+  - [📝 Notes](#-notes-6)
+- [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
+  - [📁 Files](#-files-7)
+  - [📝 Notes](#-notes-7)
+  - [📝 Credits](#-credits-7)
+- [Ryan \& Carter – Bremmy Return Roller](#ryan--carter--bremmy-return-roller)
+  - [📁 Files](#-files-8)
+  - [🖨️ Print Settings](#️-print-settings)
+  - [📝 Notes](#-notes-8)
+  - [📝 Credits](#-credits-8)
 
 ---
 
@@ -225,12 +264,12 @@ These links are for the black oxide versions of the hardware.
 
 - Print the template at 100% scale and confirm the scale with a measuring tape in inches
 - Cut out the template and affix to one of the sides of the Spot Grips as shown - trace with a silver sharpie
-- Cut with the equipment listed below: 
+- Cut with the equipment listed below:
 -   -Jigsaw with a thick metal Bosch blade (or similar)
 -   -Tap magic (or similar) cutting fluid
 -   -Work surface and clamps
 -   -Personal protective equipment - be safe!
-  
+
   Note: it’s likely best to leave more material and you can shave it down later as you test the fit with your dumbbells
 
 
@@ -238,4 +277,30 @@ These links are for the black oxide versions of the hardware.
 
 - Design by JW
 - Credit to LzrJ who took his Spot Grips to a local fab to have his cut for his Pepin Fast Adjustables, and who shared measurements of his Spot Grips after
+
+---
+
+## Ryan & Carter – Bremmy Return Roller
+
+![Bremmy Return Roller](markofzen/bremmy-roller-pic.webp)
+
+![Bremmy Return Roller Catch](markofzen/bremmy-roller-catch.png)
+
+### 📁 Files
+
+- [Bremmy Return Roller 3MF](markofzen/final-rollers.3mf)
+
+### 🖨️ Print Settings
+
+- Material: PETG
+- Infill: 60%
+- Infill Pattern: Gyroid
+
+### 📝 Notes
+
+- Roller includes a return mechanism
+
+### 📝 Credits
+
+Design by Ryan & Carter
 
