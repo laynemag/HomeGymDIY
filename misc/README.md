@@ -288,7 +288,7 @@ These links are for the black oxide versions of the hardware.
 
 ### 📁 Files
 
-- [Bremmy Return Roller 3MF](markofzen/bremmy-roller.3mf)
+- [Bremmy Return Roller 3MF](markofzen/final-rollers.3mf)
 
 ### 🖨️ Print Settings
 

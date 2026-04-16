@@ -151,7 +151,7 @@ Design by Ryan
 
 ### 📁 Files
 
-- [3D printed pad STEP](markofzen/voltra-strap-mount-3d%20printed-pad-v2.step)
+- [3D printed pad](markofzen/voltra-strap-mount-3d%20printed-pad-v2.3mf)
 - [SendCutSend metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
 
 ### 🔧 Specifications
