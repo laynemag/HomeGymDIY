@@ -26,7 +26,7 @@ Custom DIY cable attachment handles for home gym setups.
 
 ### 📁 Files
 
-- [Open Handle CAD file](tranman/Angled%20Open%20D%20Handle.step)
+- [Open Handle CAD file](tranman/angled-open-d-handle.step)
 
 ### 🔧 Materials & Specifications
 
@@ -61,7 +61,7 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 ### 📁 Files
 
-- [Closed Handle CAD file](tranman/scs%20d%20handle.step)
+- [Closed Handle CAD file](tranman/scs-d-handle.step)
 
 ### 🛒 Parts & Supplies
 
@@ -86,16 +86,16 @@ Choose from Rogue Fitness (Aluminum recommended for lighter weight):
 
 DIY modification that converts a Rogue V-Bar into an angled curl bar attachment with supported rotating handles. Features custom laser-cut brackets with foam roller pads for forearm support.
 
-![Angled Curl Bar Mod](tranman/Rogue%20Angled%20Curl%20Bar%20DIY%20Mod.png)
+![Angled Curl Bar Mod](tranman/rogue-angled-curl-bar-diy-mod.png)
 ![Angled Curl Bar - Assembled](tranman/tranman-sc-curl.webp)
-![Parts List](tranman/Parts%20List%20photo%20-%20Angled%20Curl%20Bar%20DIY%20Mod.png)
+![Parts List](tranman/parts-list-photo-angled-curl-bar-diy-mod.png)
 
 ### 📁 Files
 
-- [Left Bracket CAD file](tranman/Angled%20Supported%20Curl%20Bracket%20V6%20-%20Left.step)
-- [Right Bracket CAD file](tranman/Angled%20Supported%20Curl%20Bracket%20V6%20-%20Right.step)
-- [Screw Cover 32mm (3D Print)](tranman/D%20Handle%20Screw%20Cover%20(32MM).3mf)
-- [Screw Cover 28.5mm (3D Print)](tranman/Screw%20Cover%20-%2028.5MM.3mf)
+- [Left Bracket CAD file](tranman/angled-supported-curl-bracket-v6-left.step)
+- [Right Bracket CAD file](tranman/angled-supported-curl-bracket-v6-right.step)
+- [Screw Cover 32mm (3D Print)](tranman/d-handle-screw-cover-32mm.3mf)
+- [Screw Cover 28.5mm (3D Print)](tranman/screw-cover-28.5mm.3mf)
 
 ### 🔧 Materials & Specifications
 
@@ -136,10 +136,10 @@ Hammer curl variant of the supported curl bracket design. Features angled foam p
 
 ### 📁 Files
 
-- [Left Bracket CAD file](tranman/Hammer%20Supported%20Curl%20Bracket%20VF%20(angled%20pads)%20LEFT.step)
-- [Right Bracket CAD file](tranman/Hammer%20Supported%20Curl%20Bracket%20VF%20(angled%20pads)%20RIGHT.step)
-- [Screw Cover 32mm (3D Print)](tranman/D%20Handle%20Screw%20Cover%20(32MM).3mf)
-- [Screw Cover 28.5mm (3D Print)](tranman/Screw%20Cover%20-%2028.5MM.3mf)
+- [Left Bracket CAD file](tranman/hammer-supported-curl-bracket-vf-angled-pads-left.step)
+- [Right Bracket CAD file](tranman/hammer-supported-curl-bracket-vf-angled-pads-right.step)
+- [Screw Cover 32mm (3D Print)](tranman/d-handle-screw-cover-32mm.3mf)
+- [Screw Cover 28.5mm (3D Print)](tranman/screw-cover-28.5mm.3mf)
 
 ### 🔧 Materials & Specifications
 
@@ -166,7 +166,7 @@ Hammer curl variant of the supported curl bracket design. Features angled foam p
 ⚠️ **IMPORTANT:** Before installing the brackets to the swivel, make sure to install the handles and roller pads first. The assembly order is critical.
 
 **Assembly Order:**
-1. Install the 28.5mm handles with foam roller pads onto the brackets  
+1. Install the 28.5mm handles with foam roller pads onto the brackets
 2. Install the 32mm handles (extended with spacers if using)
 3. Attach the assembled brackets to the V-Bar swivel
 
