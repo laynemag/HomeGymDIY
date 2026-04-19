@@ -126,6 +126,26 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 2. Install the 32mm handles (extended with spacers if using)
 3. Attach the assembled brackets to the V-Bar swivel
 
+### 📐 SendCutSend Ordering Instructions
+
+Follow these step-by-step instructions to order your custom brackets from SendCutSend:
+
+![SCS Step 1](tranman/scs-instructions-step1.png)
+
+![SCS Step 2](tranman/scs-instructions-step2.png)
+
+![SCS Step 3](tranman/scs-instructions-step3.png)
+
+![SCS Step 4](tranman/scs-instructions-step4.png)
+
+![SCS Step 5](tranman/scs-instructions-step5.png)
+
+![SCS Step 6](tranman/scs-instructions-step6.png)
+
+![SCS Step 7](tranman/scs-instructions-step7.png)
+
+![SCS Step 8](tranman/scs-instructions-step8.png)
+
 ---
 
 ## Tranman Hammer Supported Curl Bracket
