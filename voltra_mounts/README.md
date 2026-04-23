@@ -106,7 +106,7 @@ Design by wamoore911
 
 ### 📝 Notes
 
-- Holds three Voltra units simultaneously for fast attachment swaps
+- Holds three Voltra units simultaneously for fast attachment swaps (unlike what's pictured, the center mount only works while the two outer docks are also installed if it is paired with a fixed mount in the middle)
 - Ideal for pairing high/low pulleys with a central neutral handle
 - 4.7 mm stainless steel
 
