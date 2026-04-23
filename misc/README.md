@@ -45,20 +45,30 @@ Custom utility accessories for racks, benches, and cable systems.
   - [📁 Files](#-files-6)
   - [📝 Notes](#-notes-5)
   - [📝 Credits](#-credits-6)
-- [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
-- [JW – Spot Grips Reppin Mod Template](#JW--spot-grips-reppin-mod-template)
-- [V-Bar Swivel Shackle (jv)](#v-bar-swivel-shackle-jv)
-  - [🛒 Parts \& Supplies](#-parts--supplies)
-  - [📝 Notes](#-notes-6)
-- [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
+- [Schnibbz – MM SBR Lip Protector](#schnibbz--mm-sbr-lip-protector)
   - [📁 Files](#-files-7)
-  - [📝 Notes](#-notes-7)
-  - [📝 Credits](#-credits-7)
-- [Ryan \& Carter – Bremmy Return Roller](#ryan--carter--bremmy-return-roller)
-  - [📁 Files](#-files-8)
   - [🖨️ Print Settings](#️-print-settings)
+  - [📝 Notes](#-notes-6)
+  - [📝 Credits](#-credits-7)
+- [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
+  - [🛒 Parts \& Supplies](#-parts--supplies)
+  - [📝 Notes](#-notes-7)
+- [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
+  - [📁 Files](#-files-8)
   - [📝 Notes](#-notes-8)
   - [📝 Credits](#-credits-8)
+- [V-Bar Swivel Shackle (jv)](#v-bar-swivel-shackle-jv)
+  - [📁 Files](#-files-9)
+  - [🔧 Specifications](#-specifications-3)
+  - [⚠️ Differences from the Stock Rogue V-Bar Swivel](#️-differences-from-the-stock-rogue-v-bar-swivel)
+  - [🛒 Parts \& Supplies](#-parts--supplies-1)
+  - [🔨 Assembly](#-assembly)
+  - [📝 Credits](#-credits-9)
+- [Ryan \& Carter – Bremmy Return Roller](#ryan--carter--bremmy-return-roller)
+  - [📁 Files](#-files-10)
+  - [🖨️ Print Settings](#️-print-settings-1)
+  - [📝 Notes](#-notes-9)
+  - [📝 Credits](#-credits-10)
 
 ---
 
@@ -235,6 +245,33 @@ Designs by Ryan (markofzen)
 
 Design by Ryan (markofzen)
 
+---
+
+## Schnibbz – MM SBR Lip Protector
+
+![MM SBR Lip Protector Installed](schnibbz/sbr-lip2.webp)
+
+![MM SBR Lip Protector - Standalone Part](schnibbz/sbr-lip.webp)
+
+### 📁 Files
+
+- [MM SBR Lip Protector 3MF](schnibbz/MM-SBR-Lip-Protector.3mf)
+
+### 🖨️ Print Settings
+
+- Material: PETG
+- Infill: 100% (recommended)
+
+### 📝 Notes
+
+- Lip protector insert for MM SBR contact area
+- Countersunk screw holes help keep hardware flush
+
+### 📝 Credits
+
+Design by Schnibbz
+
+---
 ## Rogue Black Oxide Bolts (Anand)
 
 ### 🛒 Parts & Supplies
@@ -333,7 +370,9 @@ The two flanged sleeve bearings and two thrust washers can be replaced with 3D p
 4. The shaft, bearings, and thrust washers (or 3D-printed flanged bushings) install in the shackle body and pass through the large center holes in the side plates to complete the swivel.
 
 ### 📝 Credits
+Design by jv
 
+---
 Design by jv
 ## Ryan & Carter – Bremmy Return Roller
 
