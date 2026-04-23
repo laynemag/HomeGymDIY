@@ -271,6 +271,7 @@ Design by Ryan (markofzen)
 
 Design by Schnibbz
 
+---
 ## Rogue Black Oxide Bolts (Anand)
 
 ### 🛒 Parts & Supplies
@@ -369,7 +370,9 @@ The two flanged sleeve bearings and two thrust washers can be replaced with 3D p
 4. The shaft, bearings, and thrust washers (or 3D-printed flanged bushings) install in the shackle body and pass through the large center holes in the side plates to complete the swivel.
 
 ### 📝 Credits
+Design by jv
 
+---
 Design by jv
 ## Ryan & Carter – Bremmy Return Roller
 
