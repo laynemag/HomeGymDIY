@@ -509,6 +509,53 @@
       ]
     },
     {
+      "id": "jv-vbar-swivel-shackle",
+      "name": "V-Bar Swivel Shackle",
+      "category": "Miscellaneous",
+      "creator": "jv",
+      "difficulty": "Medium",
+      "material": "304 stainless (0.250\" + 0.375\") + 3D printed spacers",
+      "cost": 50,
+      "notes": "Replica of the swivel shackle from the Rogue Rotating V-Grip Cable Attachment. The shaft is a plain cylinder (not keyed), so the side plates are free to rotate relative to each other — unlike the stock Rogue swivel, which locks them together in rotation. The bronze flanged sleeve bearings and thrust washers can be replaced with 3D printed flanged bushings.",
+      "parts": [
+        {
+          "name": "6-32 × 5/8\" screws (pack of 25)",
+          "qty": 6,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/92220A144/",
+          "estimatedCost": 14
+        },
+        {
+          "name": "1/4\" OD 6-32 threaded standoff, 1\" long (spacers)",
+          "qty": 3,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/93265A449/",
+          "estimatedCost": 3
+        },
+        {
+          "name": "1/2\" OD 1/4\"-20 threaded standoff, 2\" long (shaft)",
+          "qty": 1,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/91125A652/",
+          "estimatedCost": 7
+        },
+        {
+          "name": "Flanged sleeve bearing, 1/2\" shaft × 5/8\" housing ID, 3/8\" long (or 3D printed flanged bushing)",
+          "qty": 2,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/1677K7/",
+          "estimatedCost": 4
+        },
+        {
+          "name": "Thrust washer, 1/2\" shaft × 1\" OD × 3/32\" thick (omit if using 3D printed bushings)",
+          "qty": 2,
+          "source": "McMaster-Carr",
+          "url": "https://www.mcmaster.com/7421K6/",
+          "estimatedCost": 4
+        }
+      ]
+    },
+    {
       "id": "jv-rogue-vbar-wide-120",
       "name": "Rogue V-Bar Wide 120° Bracket",
       "category": "Handles",

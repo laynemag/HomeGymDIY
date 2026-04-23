@@ -46,6 +46,8 @@ Custom utility accessories for racks, benches, and cable systems.
   - [📝 Notes](#-notes-5)
   - [📝 Credits](#-credits-6)
 - [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
+- [JW – Spot Grips Reppin Mod Template](#JW--spot-grips-reppin-mod-template)
+- [V-Bar Swivel Shackle (jv)](#v-bar-swivel-shackle-jv)
   - [🛒 Parts \& Supplies](#-parts--supplies)
   - [📝 Notes](#-notes-6)
 - [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
@@ -280,6 +282,59 @@ These links are for the black oxide versions of the hardware.
 
 ---
 
+## V-Bar Swivel Shackle (jv)
+
+Replica of the swivel shackle from the [Rogue Rotating V-Grip Cable Attachment](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment). The shackle body and side plates are laser-cut steel; the spacer is 3D printed and accepts three metal standoffs that clamp the assembly together.
+
+![V-Bar Swivel Shackle Render](jv/vbar_swivel_shackle/images/render.png)
+
+Build photos:
+
+![Build photo](jv/vbar_swivel_shackle/images/PXL_20260319_012211221.jpg)
+![Build photo](jv/vbar_swivel_shackle/images/PXL_20260319_012313970.jpg)
+![Build photo](jv/vbar_swivel_shackle/images/PXL_20260322_165436368.jpg)
+
+### 📁 Files
+
+- [Shackle STEP](jv/vbar_swivel_shackle/cad/vbss_shackle.step)
+- [Side Plate STEP](jv/vbar_swivel_shackle/cad/vbss_side_plate.step)
+- [Spacer STEP](jv/vbar_swivel_shackle/cad/vbss_spacer.step)
+
+### 🔧 Specifications
+
+- **Side plates (×2):** 304 stainless, 0.250" (1/4") thick
+- **Shackle (×1):** 304 stainless, 0.375" (3/8") thick
+- **Shaft:** 1/2" OD, 2" long, 1/4"-20 female threaded standoff
+- **Spacer body (×1):** 3D printed from the STEP file — has three pockets that accept the standoffs listed below
+
+SendCutSend cost for the laser-cut parts (before shipping/tax): **$18.96** — $11.46 for the pair of side plates + $7.50 for the shackle.
+
+![SendCutSend order](jv/vbar_swivel_shackle/send_cut_send_order.png)
+
+### ⚠️ Differences from the Stock Rogue V-Bar Swivel
+
+The shaft is a plain cylinder with no key or flat, so the two side plates are only constrained in rotation around the shaft axis by friction from the clamping force. The original Rogue V-Bar swivel uses a keyed shaft that locks the sides together in rotation — this replica swivels normally on the cable attachment point but does not replicate that side-plate locking behavior.
+
+### 🛒 Parts & Supplies
+
+- **Screws (×6):** 6-32, 5/8" long — [McMaster 92220A144](https://www.mcmaster.com/92220A144/) ($13.94 / pack of 25)
+- **Standoffs (×3):** 1/4" OD, 1" long, 6-32 female threaded standoff — [McMaster 93265A449](https://www.mcmaster.com/93265A449/) ($1.09 ea) — press-fit into the 3D-printed spacer body
+- **Shaft (×1):** 1/2" OD, 2" long, 1/4"-20 female threaded standoff — [McMaster 91125A652](https://www.mcmaster.com/91125A652/) ($7.33 ea)
+- **Flanged sleeve bearings (×2):** 1/2" shaft dia., 5/8" housing ID, 3/8" long — [McMaster 1677K7](https://www.mcmaster.com/1677K7/) ($2.08 ea)
+- **Thrust washers (×2):** 1/2" shaft dia., 1" OD, 3/32" thick — [McMaster 7421K6](https://www.mcmaster.com/7421K6/) ($1.80 ea)
+
+The two flanged sleeve bearings and two thrust washers can be replaced with 3D printed flanged bushings.
+
+### 🔨 Assembly
+
+1. Press the three standoffs into the pockets in the 3D-printed spacer body. They should seat fully; if the print tolerance is tight, tap them in with a hammer.
+2. Sandwich the spacer+standoff assembly between the two side plates, capturing the shackle in the side plate cutouts.
+3. Drive the six 6-32 screws through the side plates into the standoffs — three per side — clamping the stack together.
+4. The shaft, bearings, and thrust washers (or 3D-printed flanged bushings) install in the shackle body and pass through the large center holes in the side plates to complete the swivel.
+
+### 📝 Credits
+
+Design by jv
 ## Ryan & Carter – Bremmy Return Roller
 
 ![Bremmy Return Roller](markofzen/bremmy-roller-pic.webp)
