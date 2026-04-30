@@ -106,7 +106,7 @@ Design by wamoore911
 
 ### 📝 Notes
 
-- Holds three Voltra units simultaneously for fast attachment swaps
+- Holds three Voltra units simultaneously for fast attachment swaps (unlike what's pictured, the center mount only works while the two outer docks are also installed if it is paired with a fixed mount in the middle)
 - Ideal for pairing high/low pulleys with a central neutral handle
 - 4.7 mm stainless steel
 
@@ -151,13 +151,13 @@ Design by Ryan
 
 ### 📁 Files
 
-- [3D printed pad STEP](markofzen/voltra-strap-mount-3d%20printed-pad-v2.step)
+- [3D printed pad](markofzen/voltra-strap-mount-3d%20printed-pad-v2.3mf)
 - [SendCutSend metal plate STEP](markofzen/voltra-strap-mount-metal-v2.step)
 
 ### 🔧 Specifications
 
 - 4.7 mm steel plate in SendCutSend (SCS) (Stainless is fine, but recommend tumble/deburring)
-- 10 mm bolts for each corner
+- M8 bolts for each corner
 - M8 flange bolts for padding threaded to backplate
 
 ### 📝 Credits
