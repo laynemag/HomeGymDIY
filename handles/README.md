@@ -101,27 +101,27 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 
 - **Bracket Material:** 1/4" HRPO Mild Steel
 - **Fabrication:** Laser cut with bends via [SendCutSend](https://www.sendcutsend.com) (recommend 1/4" HRPO Mild Steel) or [Oshcut](https://www.oshcut.com)
-- **Tap Required:** M10 x 1.5 tap for handle attachment holes (0.3938" diameter)
 
 ### 🛒 Parts & Supplies
 
-| Part | Qty | Price | Link | Notes |
-|------|-----|-------|------|-------|
-| **Rogue V-Bar** | 1 | $95.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment) | Use the included 32mm handles & swivel |
-| **Foam Pads** | 2 | $21.99 | [Amazon](https://www.amazon.com/dp/B0CNRMZ797?th=1) | Any 7 inch foam pad with inner diameter should work fine |
-| **Rogue 28.5mm Raw Aluminum Handles** | 2 | $25.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles) | Used to hold foam pads |
-| **1/2-13 x 3.5 Inch Hex Bolt** | 4 | $9.99 | [Amazon](https://www.amazon.com/dp/B08PY1NC8Z) | Used alongside 3D printed handle spacers to extend the handles by ~2.25 inches |
-| **3D Printed Handle Spacer (32mm)** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles |
-| **3D Printed Handle Spacer (28.5mm)** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles |
-| **3D Printed Bushing Spacer** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles |
-| **3D Printed Washers (Optional)** | 4 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts |
-| **3D Printed Screw Covers (Optional)** | 2 | - | Use 32mm or 28.5mm from files above | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles) |
+| Part                                   | Qty | Price  | Link                                                                                                       | Notes                                                                          |
+| -------------------------------------- | --- | ------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Rogue V-Bar**                        | 1   | $95.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment)                       | Use the included 32mm handles & swivel                                         |
+| **Foam Pads**                          | 2   | $21.99 | [Amazon](https://www.amazon.com/dp/B0CNRMZ797?th=1)                                                        | Any 7 inch foam pad with inner diameter should work fine                       |
+| **Rogue 28.5mm Raw Aluminum Handles**  | 2   | $25.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles)            | Used to hold foam pads                                                         |
+| **1/2-13 x 3.5 Inch Hex Bolt**         | 4   | $9.99  | [Amazon](https://www.amazon.com/dp/B08PY1NC8Z)                                                             | Used alongside 3D printed handle spacers to extend the handles by ~2.25 inches |
+| **3D Printed Handle Spacer (32mm)**    | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles                                       |
+| **3D Printed Handle Spacer (28.5mm)**  | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles                                    |
+| **3D Printed Bushing Spacer**          | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles                                   |
+| **3D Printed Washers (Optional)**      | 4   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts                                                             |
+| **3D Printed Screw Covers (Optional)** | 2   | -      | Use 32mm or 28.5mm from files above                                                                        | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles)               |
 
 ### 📝 Assembly Notes
 
 ⚠️ **IMPORTANT:** Before installing the brackets to the swivel, make sure to install the handles and roller pads first. The assembly order is critical.
 
 **Assembly Order:**
+
 1. Install the 28.5mm handles with foam roller pads onto the brackets
 2. Install the 32mm handles (extended with spacers if using)
 3. Attach the assembled brackets to the V-Bar swivel
@@ -165,27 +165,27 @@ Hammer curl variant of the supported curl bracket design. Features angled foam p
 
 - **Bracket Material:** 1/4" HRPO Mild Steel
 - **Fabrication:** Laser cut with bends via [SendCutSend](https://www.sendcutsend.com) (recommend 1/4" HRPO Mild Steel) or [Oshcut](https://www.oshcut.com)
-- **Tap Required:** M10 x 1.5 tap for handle attachment holes (0.3938" diameter)
 
 ### 🛒 Parts & Supplies
 
-| Part | Qty | Price | Link | Notes |
-|------|-----|-------|------|-------|
-| **Rogue V-Bar** | 1 | $95.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment) | Use the included 32mm handles & swivel |
-| **Foam Pads** | 2 | $21.99 | [Amazon](https://www.amazon.com/dp/B0CNRMZ797?th=1) | Any 7 inch foam pad with inner diameter should work fine |
-| **Rogue 28.5mm Raw Aluminum Handles** | 2 | $25.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles) | Used to hold foam pads |
-| **1/2-13 x 3.5 Inch Hex Bolt** | 4 | $9.99 | [Amazon](https://www.amazon.com/dp/B08PY1NC8Z) | Used alongside 3D printed handle spacers to extend the handles by ~2.25 inches |
-| **3D Printed Handle Spacer (32mm)** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles |
-| **3D Printed Handle Spacer (28.5mm)** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles |
-| **3D Printed Bushing Spacer** | 2 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles |
-| **3D Printed Washers (Optional)** | 4 | - | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts |
-| **3D Printed Screw Covers (Optional)** | 2 | - | Use 32mm or 28.5mm from files above | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles) |
+| Part                                   | Qty | Price  | Link                                                                                                       | Notes                                                                          |
+| -------------------------------------- | --- | ------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Rogue V-Bar**                        | 1   | $95.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-rotating-v-grip-cable-attachment)                       | Use the included 32mm handles & swivel                                         |
+| **Foam Pads**                          | 2   | $21.99 | [Amazon](https://www.amazon.com/dp/B0CNRMZ797?th=1)                                                        | Any 7 inch foam pad with inner diameter should work fine                       |
+| **Rogue 28.5mm Raw Aluminum Handles**  | 2   | $25.00 | [Rogue Fitness](https://www.roguefitness.com/rogue-h-5-multi-grip-and-cable-attachment-handles)            | Used to hold foam pads                                                         |
+| **1/2-13 x 3.5 Inch Hex Bolt**         | 4   | $9.99  | [Amazon](https://www.amazon.com/dp/B08PY1NC8Z)                                                             | Used alongside 3D printed handle spacers to extend the handles by ~2.25 inches |
+| **3D Printed Handle Spacer (32mm)**    | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles                                       |
+| **3D Printed Handle Spacer (28.5mm)**  | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles                                    |
+| **3D Printed Bushing Spacer**          | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles                                   |
+| **3D Printed Washers (Optional)**      | 4   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts                                                             |
+| **3D Printed Screw Covers (Optional)** | 2   | -      | Use 32mm or 28.5mm from files above                                                                        | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles)               |
 
 ### 📝 Assembly Notes
 
 ⚠️ **IMPORTANT:** Before installing the brackets to the swivel, make sure to install the handles and roller pads first. The assembly order is critical.
 
 **Assembly Order:**
+
 1. Install the 28.5mm handles with foam roller pads onto the brackets
 2. Install the 32mm handles (extended with spacers if using)
 3. Attach the assembled brackets to the V-Bar swivel
@@ -194,7 +194,7 @@ Hammer curl variant of the supported curl bracket design. Features angled foam p
 
 ## Custom Grommets for Gymnastics Forza Iron Cross Handles (mech6)
 
-Custom 3D printed grommets to protect the aluminum attachment holes on your [gymnastics forza iron cross handles](https://store.gymnasticsforza.com/products/gymnastics-forza-iron-cross-system).  One smaller version provides coverage for one attachment hole on the handle, the other provides coverage for all attachment holes (excluding the holes that are covered by the bolts that hold the grommets in place).
+Custom 3D printed grommets to protect the aluminum attachment holes on your [gymnastics forza iron cross handles](https://store.gymnasticsforza.com/products/gymnastics-forza-iron-cross-system). One smaller version provides coverage for one attachment hole on the handle, the other provides coverage for all attachment holes (excluding the holes that are covered by the bolts that hold the grommets in place).
 ![Forza Upgrade Handles](mech6/forza-upgrade-parts.jpg)
 
 ### 📁 Files
@@ -206,7 +206,7 @@ Custom 3D printed grommets to protect the aluminum attachment holes on your [gym
 
 - Designed for 3D printing; confirm exact thickness from the STEP before ordering/printing
 - You may update the size holes in the STEP files to match your preferred swivel hooks or carabiners
-- Recommend using PETG for 3D printing, **Need 4 total printed, two each handle** (print 4 of the larger STEP *OR* 4 of the smaller STEP file)
+- Recommend using PETG for 3D printing, **Need 4 total printed, two each handle** (print 4 of the larger STEP _OR_ 4 of the smaller STEP file)
 
 ### 📝 Notes
 
@@ -228,7 +228,6 @@ Knurled handles designed for cable machine attachments with ergonomic grip. Woul
 
 - [Trak Kaz Handles](sinix/Trak-Kaz-handles.stl)
 
-
 ## VTS Custom Rotating Handles (spohc)
 
 ![vts-rep-handle](spohc/VTS-rep-trap-handles.png)
@@ -246,14 +245,14 @@ These custom rotating handles are built using parts from Rep Fitness Open Trap B
 #### Handles & Brackets
 
 - [Rep Fitness Open Trap Bar Handles](https://repfitness.com/products/open-trap-bar-handles?variant=42225145643166)
-  - *Note:* Be careful when removing the bolts as they can strip easily. This set provides 3 pairs of handles to tinker with. The center bracket is the key component.
+  - _Note:_ Be careful when removing the bolts as they can strip easily. This set provides 3 pairs of handles to tinker with. The center bracket is the key component.
 
 #### Mounting Hardware
 
 - **Band Pegs:** 1" band peg required.
   - [Rogue Monster Band Pegs 2.0](https://www.roguefitness.com/monster-band-pegs-2-0-4-pack) (Recommended for flush fit)
   - Oak Club band pegs also work.
-  - *Alternative:* [Amazon Band Pegs](https://a.co/d/iRFunIt) (Check dimensions)
+  - _Alternative:_ [Amazon Band Pegs](https://a.co/d/iRFunIt) (Check dimensions)
 - **Collars:** Standard size weight collar to fasten the bracket.
   - [Example Collar](https://a.co/d/ddiLgF9)
 - **Rotation:** Needle bearing washers are needed if you want the handles to rotate smoothly.
