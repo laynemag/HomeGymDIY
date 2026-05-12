@@ -18,57 +18,61 @@ Custom utility accessories for racks, benches, and cable systems.
   - [🔧 Specifications](#-specifications-1)
   - [📝 Notes](#-notes)
   - [📝 Credits](#-credits)
-- [Ryan – Power Rack Utility Hook](#ryan--power-rack-utility-hook)
+- [Sinix – Prime Stability Arm Pad Brackets](#sinix--prime-stability-arm-pad-brackets)
   - [📁 Files](#-files-2)
+  - [📝 Notes](#-notes-1)
+  - [📝 Credits](#-credits-1)
+- [Ryan – Power Rack Utility Hook](#ryan--power-rack-utility-hook)
+  - [📁 Files](#-files-3)
   - [🔧 Specifications](#-specifications-2)
   - [💰 Cost Reference](#-cost-reference)
-  - [📝 Credits](#-credits-1)
-- [Ryan – Iron Master Super Bench Pro v2 Stand](#ryan--iron-master-super-bench-pro-v2-stand)
-  - [📁 Files](#-files-3)
-  - [📝 Notes](#-notes-1)
   - [📝 Credits](#-credits-2)
-- [Ryan – Replacement Pads for Darko Barbell Anchor](#ryan--replacement-pads-for-darko-barbell-anchor)
+- [Ryan – Iron Master Super Bench Pro v2 Stand](#ryan--iron-master-super-bench-pro-v2-stand)
   - [📁 Files](#-files-4)
   - [📝 Notes](#-notes-2)
   - [📝 Credits](#-credits-3)
-- [Ryan – Replacement Pads for Darko Thresher Pad](#ryan--replacement-pads-for-darko-thresher-pad)
+- [Ryan – Replacement Pads for Darko Barbell Anchor](#ryan--replacement-pads-for-darko-barbell-anchor)
   - [📁 Files](#-files-5)
   - [📝 Notes](#-notes-3)
   - [📝 Credits](#-credits-4)
+- [Ryan – Replacement Pads for Darko Thresher Pad](#ryan--replacement-pads-for-darko-thresher-pad)
+  - [📁 Files](#-files-6)
+  - [📝 Notes](#-notes-4)
+  - [📝 Credits](#-credits-5)
 - [Ryan – Titan Roller J-Cup Protectors](#ryan--titan-roller-j-cup-protectors)
   - [Original Twist-Lock Front Lip](#original-twist-lock-front-lip)
   - [Pop-Pin Front Lip](#pop-pin-front-lip)
   - [Back Protector](#back-protector)
-  - [📝 Notes](#-notes-4)
-  - [📝 Credits](#-credits-5)
-- [Ryan – Rogue Monster Safety Spotter Lip Protector](#ryan--rogue-monster-safety-spotter-lip-protector)
-  - [📁 Files](#-files-6)
   - [📝 Notes](#-notes-5)
   - [📝 Credits](#-credits-6)
-- [Schnibbz – MM SBR Lip Protector](#schnibbz--mm-sbr-lip-protector)
+- [Ryan – Rogue Monster Safety Spotter Lip Protector](#ryan--rogue-monster-safety-spotter-lip-protector)
   - [📁 Files](#-files-7)
-  - [🖨️ Print Settings](#️-print-settings)
   - [📝 Notes](#-notes-6)
   - [📝 Credits](#-credits-7)
+- [Schnibbz – MM SBR Lip Protector](#schnibbz--mm-sbr-lip-protector)
+  - [📁 Files](#-files-8)
+  - [🖨️ Print Settings](#️-print-settings)
+  - [📝 Notes](#-notes-7)
+  - [📝 Credits](#-credits-8)
 - [Rogue Black Oxide Bolts (Anand)](#rogue-black-oxide-bolts-anand)
   - [🛒 Parts \& Supplies](#-parts--supplies)
-  - [📝 Notes](#-notes-7)
-- [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
-  - [📁 Files](#-files-8)
   - [📝 Notes](#-notes-8)
-  - [📝 Credits](#-credits-8)
-- [V-Bar Swivel Shackle (jv)](#v-bar-swivel-shackle-jv)
+- [JW – Spot Grips Reppin Mod Template](#jw--spot-grips-reppin-mod-template)
   - [📁 Files](#-files-9)
+  - [📝 Notes](#-notes-9)
+  - [📝 Credits](#-credits-9)
+- [V-Bar Swivel Shackle (jv)](#v-bar-swivel-shackle-jv)
+  - [📁 Files](#-files-10)
   - [🔧 Specifications](#-specifications-3)
   - [⚠️ Differences from the Stock Rogue V-Bar Swivel](#️-differences-from-the-stock-rogue-v-bar-swivel)
   - [🛒 Parts \& Supplies](#-parts--supplies-1)
   - [🔨 Assembly](#-assembly)
-  - [📝 Credits](#-credits-9)
-- [Ryan \& Carter – Bremmy Return Roller](#ryan--carter--bremmy-return-roller)
-  - [📁 Files](#-files-10)
-  - [🖨️ Print Settings](#️-print-settings-1)
-  - [📝 Notes](#-notes-9)
   - [📝 Credits](#-credits-10)
+- [Ryan \& Carter – Bremmy Return Roller](#ryan--carter--bremmy-return-roller)
+  - [📁 Files](#-files-11)
+  - [🖨️ Print Settings](#️-print-settings-1)
+  - [📝 Notes](#-notes-10)
+  - [📝 Credits](#-credits-11)
 
 ---
 
@@ -108,6 +112,28 @@ Larger Sundial for Prime Stability Arm by Mech6 (enables locking upright storage
 - Print in PETG or PLA for best rigidity
 - Knurled pattern provides grip for tool-free adjustment of accessories
 - Ideal for quick-adjust attachments on power racks
+
+### 📝 Credits
+
+Design by Sinix
+
+---
+
+## Sinix – Prime Stability Arm Pad Brackets
+
+![Prime Stability Arm Bracket v1](sinix/bracket1.webp)
+
+![Prime Stability Arm Bracket v2](sinix/bracket2.webp)
+
+### 📁 Files
+
+- [Prime Stability Arm Pad Bracket (STEP)](sinix/prime-stability-arm-pad-bracket.step)
+- [Prime Stability Arm Pad Bracket v2 (STEP)](sinix/prime-stability-arm-pad-bracket-v2.step)
+
+### 📝 Notes
+
+- Two bracket variants are included for fit/version options
+- Designed by Sinix for Prime Stability Arm pad mounting
 
 ### 📝 Credits
 
