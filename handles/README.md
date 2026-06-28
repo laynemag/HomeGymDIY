@@ -94,6 +94,10 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 
 - [Left Bracket CAD file](tranman/angled-supported-curl-bracket-v6-left.step)
 - [Right Bracket CAD file](tranman/angled-supported-curl-bracket-v6-right.step)
+- [2-Hole Mod Left Bracket CAD file](tranman/angled-supported-curl-bracket-mod-2-hole-left.step)
+- [2-Hole Mod Right Bracket CAD file](tranman/angled-supported-curl-bracket-mod-2-hole-right.step)
+- [4-Hole Mod Left Bracket CAD file](tranman/angled-supported-curl-bracket-mod-4-hole-left.step)
+- [4-Hole Mod Right Bracket CAD file](tranman/angled-supported-curl-bracket-mod-4-hole-right.step)
 - [Screw Cover 32mm (3D Print)](tranman/d-handle-screw-cover-32mm.3mf)
 - [Screw Cover 28.5mm (3D Print)](tranman/screw-cover-28.5mm.3mf)
 
@@ -101,6 +105,16 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 
 - **Bracket Material:** 1/4" HRPO Mild Steel
 - **Fabrication:** Laser cut with bends via [SendCutSend](https://www.sendcutsend.com) (recommend 1/4" HRPO Mild Steel) or [Oshcut](https://www.oshcut.com)
+- **Bracket Variants:** Original `v6` files plus two alternate mods: one version with 2 added holes and another with 4 added holes for extra adjustment options.
+
+### 🆕 Alternate Bracket Mods
+
+Two additional bracket variants are included for builders who want more mounting / adjustment positions than the original `v6` layout:
+
+- **2-hole mod:** adds 2 extra holes total
+- **4-hole mod:** adds 4 extra holes total
+
+These variants are intended as alternate left/right bracket sets for the same angled supported curl bracket build.
 
 ### 🛒 Parts & Supplies
 
