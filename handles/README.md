@@ -105,16 +105,6 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 
 - **Bracket Material:** 1/4" HRPO Mild Steel
 - **Fabrication:** Laser cut with bends via [SendCutSend](https://www.sendcutsend.com) (recommend 1/4" HRPO Mild Steel) or [Oshcut](https://www.oshcut.com)
-- **Bracket Variants:** Original `v6` files plus two alternate mods: one version with 2 added holes and another with 4 added holes for extra adjustment options.
-
-### 🆕 Alternate Bracket Mods
-
-Two additional bracket variants are included for builders who want more mounting / adjustment positions than the original `v6` layout:
-
-- **2-hole mod:** adds 2 extra holes total
-- **4-hole mod:** adds 4 extra holes total
-
-These variants are intended as alternate left/right bracket sets for the same angled supported curl bracket build.
 
 ### 🛒 Parts & Supplies
 
@@ -179,6 +169,16 @@ Hammer curl variant of the supported curl bracket design. Features angled foam p
 
 - **Bracket Material:** 1/4" HRPO Mild Steel
 - **Fabrication:** Laser cut with bends via [SendCutSend](https://www.sendcutsend.com) (recommend 1/4" HRPO Mild Steel) or [Oshcut](https://www.oshcut.com)
+- **Bracket Variants:** Original hammer bracket files plus two alternate mods: one version with 2 added holes and another with 4 added holes for extra adjustment options.
+
+### 🆕 Alternate Bracket Mods
+
+Two additional bracket variants are included for builders who want more mounting / adjustment positions than the original hammer bracket layout:
+
+- **2-hole mod:** adds 2 extra holes total
+- **4-hole mod:** adds 4 extra holes total
+
+These variants are intended as alternate left/right bracket sets for the same hammer supported curl bracket build.
 
 ### 🛒 Parts & Supplies
 
