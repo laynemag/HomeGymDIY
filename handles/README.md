@@ -117,7 +117,7 @@ DIY modification that converts a Rogue V-Bar into an angled curl bar attachment 
 | **3D Printed Handle Spacer (32mm)**    | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles                                       |
 | **3D Printed Handle Spacer (28.5mm)**  | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles                                    |
 | **3D Printed Bushing Spacer**          | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles                                   |
-| **3D Printed Washers (Optional)**      | 4   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts                                                             |
+| **Metal Square-Hole Washer (Recommended)** | 4   | $16.14 / 25 | [McMaster 90452A108](https://www.mcmaster.com/product/90452A108) | Better durability than 3D printed washers for this build                      |
 | **3D Printed Screw Covers (Optional)** | 2   | -      | Use 32mm or 28.5mm from files above                                                                        | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles)               |
 
 ### 📝 Assembly Notes
@@ -191,7 +191,7 @@ These variants are intended as alternate left/right bracket sets for the same ha
 | **3D Printed Handle Spacer (32mm)**    | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used to extend handles                                       |
 | **3D Printed Handle Spacer (28.5mm)**  | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | 3D Printed Spacer used for foam pad handles                                    |
 | **3D Printed Bushing Spacer**          | 2   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Spacer used to close the gap for the handles                                   |
-| **3D Printed Washers (Optional)**      | 4   | -      | [MakerWorld](https://makerworld.com/en/models/2586308-3d-printed-parts-for-diy-curl-bar#profileId-2853151) | Used for the bolts                                                             |
+| **Metal Square-Hole Washer (Recommended)** | 4   | $16.14 / 25 | [McMaster 90452A108](https://www.mcmaster.com/product/90452A108) | Better durability than 3D printed washers for this build                      |
 | **3D Printed Screw Covers (Optional)** | 2   | -      | Use 32mm or 28.5mm from files above                                                                        | Uses 1/2 - 13 bolts (same bolts used by Rogue for their handles)               |
 
 ### 📝 Assembly Notes
